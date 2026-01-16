@@ -625,17 +625,16 @@ const productos = [
 
 
   /* ================= FORMULA 1 ================= */
-  { nombre: "Senna 1", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/senna-1.jpeg" },
-  { nombre: "Senna 2", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/senna-2.jpeg" },
-  { nombre: "Senna 3", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/senna-3.jpeg" },
-  { nombre: "Senna 4", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/senna-4.jpeg" },
-  { nombre: "Senna 5", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/senna-5.jpeg" },
-  { nombre: "Senna 6", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/senna-6.jpeg" },
-  { nombre: "Ferrari 1", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/ferrari-1.jpeg" },
-  { nombre: "Ferrari 2", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/ferrari-2.jpeg" },
-  { nombre: "Ferrari 3", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/ferrari-3.jpeg" },
-  { nombre: "Ferrari 4", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/ferrari-4.jpeg" },
-
+  { nombre: "Senna 1", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/senna-1.jpeg" },
+  { nombre: "Senna 2", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/senna-2.jpeg" },
+  { nombre: "Senna 3", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/senna-3.jpeg" },
+  { nombre: "Senna 4", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/senna-4.jpeg" },
+  { nombre: "Senna 5", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/senna-5.jpeg" },
+  { nombre: "Senna 6", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/senna-6.jpeg" },
+  { nombre: "Ferrari 1", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/ferrari-1.jpeg" },
+  { nombre: "Ferrari 2", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/ferrari-2.jpeg" },
+  { nombre: "Ferrari 3", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/ferrari-3.jpeg" },
+  { nombre: "Ferrari 4", categoria: "formula1", orientacion: "vertical", imagen: "img/formula1/ferrari-4.jpeg" },
   /* ================= TIO RICO ================= */
   { nombre: "Tio Rico 1", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico1.jpeg" },
   { nombre: "Tio Rico 2", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico2.jpeg" },
