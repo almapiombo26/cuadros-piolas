@@ -396,92 +396,107 @@ footer a {
     text-decoration: none;
 }
 
-/* ================= RESPONSIVE ================= */
+/* ================= MOBILE XS (menos de 576px) ================= */
 @media (max-width: 576px) {
-    .cuadro-img {
-        width: 100%;        /* ocupa todo el ancho del card */
-        height: 180px;      /* altura fija pero proporcional */
-        object-fit: cover;  /* mantiene proporción y recorta si hace falta */
-        border-radius: 10px;
+
+    /* ===== Hero ===== */
+    .hero-imagen {
+        width: 100%;
+        padding: 0 0.5rem;
     }
-    .categorias .btn {
-        flex: 0 1 120px;       /* Más pequeño para pantallas chicas */
-        font-size: 0.9rem;
-        height: 45px;
+    .hero-imagen img {
+        width: 100%;
+        height: 320px;           /* más grande que antes */
+        max-height: 320px;       /* limita altura para que no ocupe demasiado */
+        object-fit: cover;
+        object-position: center; /* centra la imagen si se recorta */
+        border-radius: 16px;
+        display: block;
+        margin: auto;
     }
 
+    /* ===== Categorías scroll horizontal ===== */
     .categorias {
-        flex-wrap: nowrap;        /* forzamos que no salten a otra fila */
-        overflow-x: auto;         /* scroll horizontal */
-        -webkit-overflow-scrolling: touch; /* scroll suave iOS */
-        justify-content: flex-start; /* alineación desde la izquierda */
-        padding: 0.5rem 0.25rem;  /* menos padding en mobile */
-        gap: 0.5rem;              /* espacio entre botones */
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start;
+        padding: 0.5rem 0.25rem;
+        gap: 0.5rem;
     }
-
-    .categorias .btn {
-        flex: 0 0 auto;           /* ancho fijo según contenido */
-        white-space: nowrap;       /* evita que el texto se corte */
-        font-size: 0.9rem;        /* tamaño adecuado en mobile */
-        height: 40px;             /* altura cómoda */
-        padding: 0.35rem 0.75rem; /* padding más compacto */
-    }
-
-    /* Opcional: ocultar scrollbar para estética */
     .categorias::-webkit-scrollbar {
         display: none;
     }
     .categorias {
-        -ms-overflow-style: none;  /* IE y Edge */
-        scrollbar-width: none;     /* Firefox */
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .categorias .btn {
+        flex: 0 0 auto;          /* ancho según contenido */
+        white-space: nowrap;     /* no corta el texto */
+        font-size: 0.85rem;
+        height: 40px;
+        padding: 0.35rem 0.75rem;
+        border-radius: 20px;
     }
 
-    .hero-imagen img {
-        height: 260px;
-        border-radius: 16px;}
+    /* ===== Productos en 2 columnas ===== */
+    .contenedor-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en mobile */
+        gap: 0.75rem;
+        padding: 1rem 0.5rem;
+    }
 
+    /* ===== Imagen de cada producto ===== */
+    .cuadro-img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    /* ===== Cards ===== */
+    .card,
+    .cuadro {
+        padding: 0.8rem;
+    }
+
+    /* ===== Carrito ===== */
     .carrito-item {
         grid-template-columns: 1fr;
         text-align: center;
     }
-
     .carrito-total {
         text-align: center;
     }
 }
 
-/* Mobile */
+/* ================= MOBILE SM (menos de 768px) ================= */
 @media (max-width: 768px) {
     .logo-navbar {
-        height: 120px;  /* más chico en celular */
+        height: 120px;
     }
-
     .proceso-img-principal {
-    max-height: 280px;
-  }
-
-  .proceso-img-secundaria {
-    max-height: 160px;
-  }
+        max-height: 280px;
+    }
+    .proceso-img-secundaria {
+        max-height: 160px;
+    }
 }
 
 /* ================= NAVBAR MOBILE ================= */
 @media (max-width: 991px) {
-
-    /* Fondo del menú desplegado */
     .navbar-collapse {
         background-color: #fff;
         padding: 1rem;
         border-radius: 0 0 12px 12px;
     }
-
-    /* Color de los links */
     .navbar-collapse .nav-link {
         color: #000 !important;
         font-weight: 600;
     }
-
-    /* Hover */
     .navbar-collapse .nav-link:hover {
         color: #333 !important;
     }
