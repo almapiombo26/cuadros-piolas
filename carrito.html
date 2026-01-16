@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito | Cuadros Piolas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger shadow">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="index.html">
+      <img src="img/logo.PNG" alt="Cuadros Piolas" class="logo-navbar">
+    </a>
+
+    <!-- Carrito móvil -->
+    <a href="carrito.html" class="nav-link text-white position-relative d-lg-none ms-auto me-2">
+      <i class="bi bi-cart-fill fs-4"></i>
+      <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+        0
+      </span>
+    </a>
+
+    <!-- Seguir comprando -->
+    <div class="ms-auto">
+      <a href="productos.html" class="nav-link text-white">
+        <i class="bi bi-arrow-left"></i> Seguir comprando
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- ================= CARRITO ================= -->
+<main class="container my-5 pt-5">
+
+  <h2 class="fw-bold mb-4">Tu carrito</h2>
+
+  <!-- Lista -->
+  <div id="carrito-lista" class="mb-4"></div>
+
+  <!-- Total -->
+  <div class="d-flex justify-content-between align-items-center border-top pt-3">
+    <h4 class="fw-bold">Total</h4>
+    <h4 class="fw-bold text-success" id="carrito-total">$0</h4>
+  </div>
+
+  <!-- Acciones -->
+  <div class="mt-4 d-flex gap-3">
+    <button id="btn-vaciar" class="btn btn-outline-secondary">
+      Vaciar carrito
+    </button>
+
+    <button id="btn-finalizar" class="btn btn-success flex-grow-1">
+      Finalizar compra por WhatsApp
+    </button>
+  </div>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer bg-dark text-white text-center py-4 mt-5">
+  <p class="mb-1">
+    Seguinos en
+    <a href="https://www.instagram.com/cuadros.piolas/" target="_blank" class="text-white fw-bold">
+      @cuadros.piolas
+    </a>
+  </p>
+  <p class="mb-0">Consultas y ventas por WhatsApp</p>
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/carrito.js"></script>
+
+</body>
+</html>
+
+

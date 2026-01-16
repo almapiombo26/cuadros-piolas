@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos | Cuadros Piolas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger shadow">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="index.html">
+      <img src="img/logo.PNG" alt="Cuadros Piolas" class="logo-navbar">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- CARRITO MOBILE -->
+    <a href="carrito.html" class="nav-link text-white position-relative ms-auto me-2 d-lg-none">
+      <i class="bi bi-cart3 fs-4"></i>
+      <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">0</span>
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="como-comprar.html">Cómo comprar</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">Sobre nosotros</a></li>
+      </ul>
+
+      <!-- CARRITO DESKTOP -->
+      <a href="carrito.html" class="nav-link text-white position-relative ms-auto d-none d-lg-flex">
+        <i class="bi bi-cart3 fs-4"></i>
+        <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">0</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= CONTENIDO ================= -->
+<main class="container my-5 pt-5">
+
+  <!-- BUSCADOR -->
+  <div class="row mb-3">
+    <div class="col-12 col-md-6 mx-auto">
+      <input
+        type="search"
+        id="buscador"
+        class="form-control form-control-lg"
+        placeholder="Buscar cuadros (ej: Maradona, fútbol, cine...)">
+    </div>
+  </div>
+
+  <!-- CATEGORÍAS -->
+  <div class="row mb-4">
+    <div class="col-12">
+      <div class="d-flex gap-2 overflow-auto justify-content-center categorias">
+
+        <button class="btn btn-outline-danger btn-sm active" data-cat="todos">Todos</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="dolar">Dólar</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="dinero">Dinero</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="futbol">Fútbol</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="musica">Música</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="cine">Cine</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="lujo">Lujo</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="monopoly">Monopoly</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="peakyblinders">Peaky Blinders</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="superheroes">Superhéroes</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="formula1">Fórmula 1</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="rickyricon">Ricky ricón</button>
+        <button class="btn btn-outline-danger btn-sm" data-cat="onepiece">One Piece</button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- MENSAJE SIN RESULTADOS -->
+  <p id="sin-resultados" class="text-center fw-bold d-none">
+    No se encontraron cuadros para tu búsqueda
+  </p>
+
+  <!-- PRODUCTOS -->
+  <div id="contenedor-productos" class="row g-4"></div>
+
+</main>
+
+<!-- ================= TEMPLATE ================= -->
+<template id="template-cuadro">
+  <div class="col-md-4 col-sm-6">
+    <article class="card h-100 shadow-sm p-3">
+      <img class="cuadro-img card-img-top mb-3" alt="Cuadro">
+
+      <h5 class="cuadro-nombre fw-bold"></h5>
+      <p class="cuadro-descripcion small text-muted"></p>
+
+      <label class="form-label">Medida</label>
+      <select class="form-select select-medida mb-2"></select>
+
+      <div class="form-check mb-2">
+        <input type="checkbox" class="form-check-input check-led">
+        <label class="form-check-label">Con luces LED Neon</label>
+      </div>
+
+      <label class="form-label">Cantidad</label>
+      <input type="number" class="form-control input-cantidad mb-2" min="1" value="1">
+
+      <p class="precio fw-bold fs-5">$0</p>
+
+      <button class="btn btn-dark w-100 btn-agregar">
+        Agregar al carrito
+      </button>
+    </article>
+  </div>
+</template>
+
+<!-- ================= MODAL ZOOM IMAGEN ================= -->
+<div class="modal fade" id="imagenModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img
+        id="imagenModalSrc"
+        class="img-fluid rounded"
+        alt="Imagen ampliada"
+      >
+    </div>
+  </div>
+</div>
+
+<div id="mini-cart" class="mini-cart d-none">
+  <div class="mini-cart-header">
+    <strong>Agregado al carrito</strong>
+    <button id="cerrar-mini-cart">✕</button>
+  </div>
+
+  <div class="mini-cart-body">
+    <img id="mini-cart-img" src="" alt="">
+    <div>
+      <p id="mini-cart-nombre"></p>
+      <small id="mini-cart-detalle"></small>
+      <p id="mini-cart-precio"></p>
+    </div>
+  </div>
+
+  <div class="mini-cart-footer">
+    <p id="mini-cart-total"></p>
+    <a href="carrito.html" class="btn btn-dark w-100">Ver carrito</a>
+  </div>
+</div>
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+  <p class="mb-1">
+    Seguinos en
+    <a href="https://www.instagram.com/cuadros.piolas/" target="_blank" class="text-white fw-bold">
+      @cuadros.piolas
+    </a>
+  </p>
+  <p class="mb-0">Consultas y ventas por WhatsApp</p>
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
+
+

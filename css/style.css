@@ -1,0 +1,421 @@
+/* ================= RESET ================= */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-top: 130px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.4;
+}
+
+main {
+    padding-top: 60px;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    background-color: #000000 !important;
+    letter-spacing: 0.3px;
+}
+
+.navbar-brand,
+.navbar-brand span,
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    opacity: 0.75;
+}
+
+
+/* ================= CONTENEDOR PRODUCTOS ================= */
+.contenedor-productos {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+/* ================= CARD PRODUCTO ================= */
+.card,
+.cuadro {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.card:hover,
+.cuadro:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+/* ================= LOGO NAVBAR ================= */
+.navbar {
+    height: 120px;              /* ALTURA DEL NAV */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* ================= LOGO NAVBAR ================= */
+.logo-navbar {
+    height: 150px;      /* tamaño normal */
+    width: auto;
+}
+
+/* ================= IMAGEN ================= */
+.cuadro-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    background: #eee;
+}
+
+/* ================= TEXTO ================= */
+.cuadro-nombre {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0.5rem 0 0;
+    color: #000000;
+}
+
+.cuadro-descripcion {
+    font-size: 0.9rem;
+    color: #444444;
+    margin-bottom: 0.4rem;
+}
+
+/* ================= FORM ================= */
+.cuadro label {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.cuadro select,
+.cuadro input[type="number"] {
+    width: 100%;
+    padding: 0.45rem 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    font-size: 0.9rem;
+}
+
+.cuadro select:focus,
+.cuadro input:focus {
+    outline: none;
+    border-color: #000000;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.15);
+}
+
+/* ================= CHECK LED ================= */
+.form-check-input:checked {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+/* ================= PRECIO ================= */
+.precio {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #000000;
+}
+
+/* ================= BOTONES ================= */
+.btn,
+.btn-agregar {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 0.65rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform .15s ease, opacity .2s ease;
+}
+
+.btn:hover,
+.btn-agregar:hover {
+    opacity: 0.85;
+    transform: scale(1.02);
+}
+
+/* ================= CARRITO ================= */
+.carrito-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+.carrito-item {
+    display: grid;
+    grid-template-columns: 90px 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.carrito-item img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carrito-info h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.carrito-info p {
+    font-size: 0.85rem;
+    color: #444444;
+}
+
+.carrito-precio {
+    font-weight: 800;
+    color: #000000;
+}
+
+.btn-eliminar {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* ================= TOTAL ================= */
+.carrito-total {
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+/* ================= WHATSAPP (ÚNICO VERDE) ================= */
+.btn-whatsapp {
+    display: block;
+    width: 100%;
+    background: #25D366;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.9rem;
+    border-radius: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 1.2rem;
+}
+
+.btn-whatsapp:hover {
+    background: #1ebe5d;
+}
+
+/* Botón flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    z-index: 999;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebe5d;
+}
+
+/* ================= HERO IMAGEN ================= */
+.hero-imagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -60px; /* 👈 la acerca al nav */
+}
+
+.hero-imagen img {
+    max-width: 85%;          /* 🔹 achica la imagen */
+    height: auto;            /* 🔹 no la corta */
+    border-radius: 22px;
+    display: block;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+/* ================= SOBRE NOSOTROS ================= */
+.sobre-nosotros-page {
+  min-height: 80vh;
+}
+
+.sobre-nosotros h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* ===== SOBRE NOSOTROS - PROCESO ===== */
+
+.proceso-img-principal {
+  max-height: 420px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.proceso-img-secundaria {
+  max-height: 180px;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.95;
+}
+
+/* ===== INFO DE PRODUCCIÓN ===== */
+
+.bg-light h6 {
+  letter-spacing: 0.3px;
+}
+
+.bg-light i {
+  opacity: 0.9;
+}
+
+
+.mini-cart {
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  width: 320px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  z-index: 9999;
+  padding: 15px;
+}
+
+.mini-cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini-cart-body {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.mini-cart-body img {
+  width: 70px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.mini-cart-footer p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+/* ================= FOOTER ================= */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer a {
+    color: #25D366;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 576px) {
+    .cuadro-img {
+        height: 200px;
+    }
+
+    .hero-imagen img {
+        height: 260px;
+        border-radius: 16px;}
+
+    .carrito-item {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .carrito-total {
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .logo-navbar {
+        height: 120px;  /* más chico en celular */
+    }
+
+    .proceso-img-principal {
+    max-height: 280px;
+  }
+
+  .proceso-img-secundaria {
+    max-height: 160px;
+  }
+}
+
+/* ================= NAVBAR MOBILE ================= */
+@media (max-width: 991px) {
+
+    /* Fondo del menú desplegado */
+    .navbar-collapse {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 0 0 12px 12px;
+    }
+
+    /* Color de los links */
+    .navbar-collapse .nav-link {
+        color: #000 !important;
+        font-weight: 600;
+    }
+
+    /* Hover */
+    .navbar-collapse .nav-link:hover {
+        color: #333 !important;
+    }
+}
+
+
+
