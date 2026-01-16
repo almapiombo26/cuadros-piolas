@@ -400,6 +400,7 @@ footer a {
 @media (max-width: 576px) {
     .cuadro-img {
         height: 200px;
+        width: auto;
     }
 
     .categorias .btn {
