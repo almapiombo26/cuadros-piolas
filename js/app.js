@@ -432,6 +432,9 @@ const preciosEspeciales = {
     "70x110": { normal: 90000, led: 110000 }
   },
 
+/* ================= AUTOS ================= */
+
+
 
 
 
@@ -656,7 +659,27 @@ const productos = [
   { nombre: "Tio Rico 20", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico20.jpeg" },
   { nombre: "Tio Rico 21", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico21.jpeg" },
 
-
+/* ================= AUTOS ================= */
+  { nombre: "Autos 1", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos1.jpeg" },
+  { nombre: "Autos 2", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos2.jpeg" },
+  { nombre: "Autos 3", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos3.jpeg" },
+  { nombre: "Autos 4", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos4.jpeg" },
+  { nombre: "Autos 5", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos5.jpeg" },
+  { nombre: "Autos 6", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos6.jpeg" },
+  { nombre: "Autos 7", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos7.jpeg" },
+  { nombre: "Autos 8", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos8.jpeg" },
+  { nombre: "Autos 9", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos9.jpeg" },
+  { nombre: "Autos 10", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos10.jpeg" },
+  { nombre: "Autos 11", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos11.jpeg" },
+  { nombre: "Autos 12", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos12.jpeg" },
+  { nombre: "Autos 13", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos13.jpeg" },
+  { nombre: "Autos 14", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos14.jpeg" },
+  { nombre: "Autos 15", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos15.jpeg" },
+  { nombre: "Autos 16", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos16.jpeg" },
+  { nombre: "Autos 17", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos17.jpeg" },
+  { nombre: "Autos 18", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos18.jpeg" },
+  { nombre: "Autos 19", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos19.jpeg" },
+  { nombre: "Autos 20", categoria: "autos", orientacion: "vertical", imagen: "img/autos/autos20.jpeg" },
 
   /* ================= RICKY RICON ================= */
   { nombre: "Ricky ricon 1", categoria: "rickyricon", orientacion: "vertical", imagen: "img/ricky-ricon/ricky-ricon-1.jpeg" },
