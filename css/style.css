@@ -398,17 +398,18 @@ footer a {
 
 /* ================= MOBILE XS (menos de 576px) ================= */
 @media (max-width: 576px) {
-    
+
+    /* ===== Hero/banner ===== */
     .hero-imagen {
         width: 100%;
         padding: 0 0.5rem;
     }
-    
     .hero-imagen img {
-        width: 100%;
+        width: 100%;           /* ocupa todo el ancho */
         height: auto;          /* mantiene proporción */
-        max-height: 400px;     /* no se hace gigante */
-        object-fit: contain;   /* muestra toda la imagen */
+        max-height: 400px;     /* altura máxima para mobile */
+        object-fit: contain;   /* muestra toda la imagen sin recortar */
+        object-position: center;
         border-radius: 16px;
         display: block;
         margin: auto;
@@ -424,19 +425,16 @@ footer a {
         padding: 0.5rem 0.25rem;
         gap: 0.5rem;
     }
-
     .categorias::-webkit-scrollbar {
         display: none;
     }
-
     .categorias {
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
-
     .categorias .btn {
         flex: 0 0 auto;          /* ancho según contenido */
-        white-space: nowrap;     /* no corta el texto */
+        white-space: nowrap;     /* no cortar el texto */
         font-size: 0.85rem;
         height: 40px;
         padding: 0.35rem 0.75rem;
@@ -446,7 +444,7 @@ footer a {
     /* ===== Productos en 2 columnas ===== */
     .contenedor-productos {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas en mobile */
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en móviles */
         gap: 0.75rem;
         padding: 1rem 0.5rem;
     }
@@ -454,8 +452,8 @@ footer a {
     /* ===== Imagen de cada producto ===== */
     .cuadro-img {
         width: 100%;
-        height: 180px;
-        object-fit: cover;
+        height: 180px;        /* altura cómoda */
+        object-fit: cover;    /* mantiene proporción y recorta si hace falta */
         border-radius: 10px;
     }
 
@@ -478,8 +476,9 @@ footer a {
 /* ================= MOBILE SM (menos de 768px) ================= */
 @media (max-width: 768px) {
     .logo-navbar {
-        height: 120px;
+        height: 120px;  /* más chico en celular */
     }
+
     .proceso-img-principal {
         max-height: 280px;
     }
@@ -503,6 +502,7 @@ footer a {
         color: #333 !important;
     }
 }
+
 
 
 
