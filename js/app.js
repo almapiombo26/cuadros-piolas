@@ -306,27 +306,27 @@ const preciosEspeciales = {
 
 /* poner precios q me diga dami */
   "One Piece 6": {
-    "80x40": { normal: 50000, led: 75000 },
-    "120x60": { normal: 70000, led: 95000 },
-    "150x60": { normal: 90000, led: 110000 }
+    "80x40": { normal: 60000, led: 90000 },
+    "120x60": { normal: 80000, led: 110000 },
+    "150x60": { normal: 100000, led: 130000 }
   },
 
   "One Piece 7": {
-    "80x40": { normal: 50000, led: 75000 },
-    "120x60": { normal: 70000, led: 95000 },
-    "150x60": { normal: 90000, led: 110000 }
+    "80x40": { normal: 60000, led: 90000 },
+    "120x60": { normal: 80000, led: 110000 },
+    "150x60": { normal: 100000, led: 130000 }
   },
 
   "One Piece 8": {
-    "80x40": { normal: 50000, led: 75000 },
-    "120x60": { normal: 70000, led: 95000 },
-    "150x60": { normal: 90000, led: 110000 }
+    "80x40": { normal: 60000, led: 90000 },
+    "120x60": { normal: 80000, led: 110000 },
+    "150x60": { normal: 100000, led: 130000 }
   },
 
   "One Piece 13": {
-    "80x40": { normal: 50000, led: 75000 },
-    "120x60": { normal: 70000, led: 95000 },
-    "150x60": { normal: 90000, led: 110000 }
+    "80x40": { normal: 60000, led: 90000 },
+    "120x60": { normal: 80000, led: 110000 },
+    "150x60": { normal: 100000, led: 130000 }
   },
 
 
@@ -421,9 +421,9 @@ const preciosEspeciales = {
   },
 
   "Tio Rico 1": { /* ver precios*/
-    "80x40": { normal: 50000, led: 75000 },
-    "120x60": { normal: 70000, led: 95000 },
-    "150x60": { normal: 90000, led: 110000 }
+    "80x40": { normal: 60000, led: 90000 },
+    "120x60": { normal: 80000, led: 110000 },
+    "150x60": { normal: 100000, led: 130000 }
   },
 
   "Tio Rico 8": {
