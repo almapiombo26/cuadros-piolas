@@ -351,7 +351,86 @@ const preciosEspeciales = {
   },
 
 
+  /* ================= TIO RICO ================= */
 
+  "Tio Rico 2": {
+    "50x60": { normal: 60000, led: 85000 },
+    "70x80": { normal: 80000, led: 105000 },
+    "90x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 3": {
+    "50x60": { normal: 60000, led: 85000 },
+    "70x80": { normal: 80000, led: 105000 },
+    "90x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 5": {
+    "50x60": { normal: 60000, led: 85000 },
+    "70x80": { normal: 80000, led: 105000 },
+    "90x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 10": {
+    "50x60": { normal: 60000, led: 85000 },
+    "70x80": { normal: 80000, led: 105000 },
+    "90x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 20": {
+    "50x60": { normal: 60000, led: 85000 },
+    "70x80": { normal: 80000, led: 105000 },
+    "90x100": { normal: 100000, led: 125000 }
+  },
+
+
+  "Tio Rico 4": {
+    "60x60": { normal: 60000, led: 85000 },
+    "80x80": { normal: 80000, led: 105000 },
+    "100x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 9": {
+    "60x60": { normal: 60000, led: 85000 },
+    "80x80": { normal: 80000, led: 105000 },
+    "100x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 11": {
+    "60x60": { normal: 60000, led: 85000 },
+    "80x80": { normal: 80000, led: 105000 },
+    "100x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 15": {
+    "60x60": { normal: 60000, led: 85000 },
+    "80x80": { normal: 80000, led: 105000 },
+    "100x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 17": {
+    "60x60": { normal: 60000, led: 85000 },
+    "80x80": { normal: 80000, led: 105000 },
+    "100x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 18": {
+    "60x60": { normal: 60000, led: 85000 },
+    "80x80": { normal: 80000, led: 105000 },
+    "100x100": { normal: 100000, led: 125000 }
+  },
+
+  "Tio Rico 1": { /* ver precios*/
+    "80x40": { normal: 50000, led: 75000 },
+    "120x60": { normal: 70000, led: 95000 },
+    "150x60": { normal: 90000, led: 110000 }
+  },
+
+  "Tio Rico 8": {
+    "40x70": { normal: 50000, led: 75000 },
+    "60x90": { normal: 70000, led: 95000 },
+    "70x110": { normal: 90000, led: 110000 }
+  },
 
 
 
@@ -553,6 +632,31 @@ const productos = [
   { nombre: "Ferrari 2", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/ferrari-2.jpeg" },
   { nombre: "Ferrari 3", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/ferrari-3.jpeg" },
   { nombre: "Ferrari 4", categoria: "formula1", orientacion: "vertical", imagen: "img/automovilismo/ferrari-4.jpeg" },
+
+  /* ================= TIO RICO ================= */
+  { nombre: "Tio Rico 1", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico1.jpeg" },
+  { nombre: "Tio Rico 2", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico2.jpeg" },
+  { nombre: "Tio Rico 3", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico3.jpeg" },
+  { nombre: "Tio Rico 4", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico4.jpeg" },
+  { nombre: "Tio Rico 5", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico5.jpeg" },
+  { nombre: "Tio Rico 6", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico6.jpeg" },
+  { nombre: "Tio Rico 7", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico7.jpeg" },
+  { nombre: "Tio Rico 8", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico8.jpeg" },
+  { nombre: "Tio Rico 9", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico9.jpeg" },
+  { nombre: "Tio Rico 10", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico10.jpeg" },
+  { nombre: "Tio Rico 11", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico11.jpeg" },
+  { nombre: "Tio Rico 12", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico12.jpeg" },
+  { nombre: "Tio Rico 13", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico13.jpeg" },
+  { nombre: "Tio Rico 14", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico14.jpeg" },
+  { nombre: "Tio Rico 15", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico15.jpeg" },
+  { nombre: "Tio Rico 16", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico16.jpeg" },
+  { nombre: "Tio Rico 17", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico17.jpeg" },
+  { nombre: "Tio Rico 18", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico18.jpeg" },
+  { nombre: "Tio Rico 19", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico19.jpeg" },
+  { nombre: "Tio Rico 20", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico20.jpeg" },
+  { nombre: "Tio Rico 21", categoria: "tiorico", orientacion: "vertical", imagen: "img/tiorico/tiorico21.jpeg" },
+
+
 
   /* ================= RICKY RICON ================= */
   { nombre: "Ricky ricon 1", categoria: "rickyricon", orientacion: "vertical", imagen: "img/ricky-ricon/ricky-ricon-1.jpeg" },
