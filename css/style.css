@@ -16,6 +16,42 @@ main {
     padding-top: 60px;
 }
 
+/* Contenedor de categorías */
+.categorias {
+  display: flex;
+  flex-wrap: wrap;          /* Permite que los botones pasen a la siguiente fila */
+  justify-content: center;   /* Centra los botones */
+  gap: 0.75rem 0.75rem;     /* Espaciado entre botones */
+  padding: 1rem 0;
+}
+
+/* Botones de categoría */
+.categorias .btn {
+  flex: 0 1 140px;           /* Anchura mínima de 140px, se adapta a pantalla */
+  height: 50px;              /* Altura más grande que antes */
+  white-space: normal;        /* Permite que textos largos se dividan en varias líneas */
+  text-align: center;
+  font-size: 1rem;            /* Texto más grande */
+  font-weight: 500;
+  padding: 0.5rem 1rem;       /* Padding cómodo */
+  border-radius: 0.6rem;      /* Bordes redondeados */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover para interacción */
+.categorias .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+
+/* Botón activo */
+.categorias .btn.active {
+  background-color: #dc3545; /* Rojo Bootstrap */
+  color: #fff;
+  border-color: #dc3545;
+}
+
+
 /* ================= NAVBAR ================= */
 .navbar {
     background-color: #000000 !important;
@@ -364,6 +400,12 @@ footer a {
 @media (max-width: 576px) {
     .cuadro-img {
         height: 200px;
+    }
+
+    .categorias .btn {
+        flex: 0 1 120px;       /* Más pequeño para pantallas chicas */
+        font-size: 0.9rem;
+        height: 45px;
     }
 
     .hero-imagen img {
