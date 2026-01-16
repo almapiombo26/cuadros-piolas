@@ -637,12 +637,28 @@ const keywords = {
 let listaVisible = [...productos];
 
 /* ================= CATEGORÍAS ================= */
+const personalizadosSection = document.getElementById("personalizados-section");
+
 document.querySelectorAll(".categorias button").forEach(btn => {
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".categorias button").forEach(b => b.classList.remove("active"));
+
+    document.querySelectorAll(".categorias button")
+      .forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
 
     const cat = btn.dataset.cat;
+
+    // 👇 CASO PERSONALIZADOS
+    if (cat === "personalizados") {
+      contenedor.innerHTML = "";
+      document.getElementById("sin-resultados").classList.add("d-none");
+      personalizadosSection.classList.remove("d-none");
+      return;
+    }
+
+    // 👇 resto normal
+    personalizadosSection.classList.add("d-none");
+
     listaVisible = cat === "todos"
       ? [...productos]
       : productos.filter(p => p.categoria === cat);
@@ -650,6 +666,7 @@ document.querySelectorAll(".categorias button").forEach(btn => {
     renderProductos();
   });
 });
+
 
 /* ================= BUSCADOR ================= */
 const inputBuscador = document.getElementById("buscador");
