@@ -399,14 +399,41 @@ footer a {
 /* ================= RESPONSIVE ================= */
 @media (max-width: 576px) {
     .cuadro-img {
-        height: 200px;
-        width: auto;
+        width: 100%;        /* ocupa todo el ancho del card */
+        height: 180px;      /* altura fija pero proporcional */
+        object-fit: cover;  /* mantiene proporción y recorta si hace falta */
+        border-radius: 10px;
     }
-
     .categorias .btn {
         flex: 0 1 120px;       /* Más pequeño para pantallas chicas */
         font-size: 0.9rem;
         height: 45px;
+    }
+
+    .categorias {
+        flex-wrap: nowrap;        /* forzamos que no salten a otra fila */
+        overflow-x: auto;         /* scroll horizontal */
+        -webkit-overflow-scrolling: touch; /* scroll suave iOS */
+        justify-content: flex-start; /* alineación desde la izquierda */
+        padding: 0.5rem 0.25rem;  /* menos padding en mobile */
+        gap: 0.5rem;              /* espacio entre botones */
+    }
+
+    .categorias .btn {
+        flex: 0 0 auto;           /* ancho fijo según contenido */
+        white-space: nowrap;       /* evita que el texto se corte */
+        font-size: 0.9rem;        /* tamaño adecuado en mobile */
+        height: 40px;             /* altura cómoda */
+        padding: 0.35rem 0.75rem; /* padding más compacto */
+    }
+
+    /* Opcional: ocultar scrollbar para estética */
+    .categorias::-webkit-scrollbar {
+        display: none;
+    }
+    .categorias {
+        -ms-overflow-style: none;  /* IE y Edge */
+        scrollbar-width: none;     /* Firefox */
     }
 
     .hero-imagen img {
