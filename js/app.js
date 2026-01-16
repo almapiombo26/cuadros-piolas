@@ -304,7 +304,7 @@ const preciosEspeciales = {
 
 
 
-
+/* poner precios q me diga dami */
   "One Piece 6": {
     "80x40": { normal: 50000, led: 75000 },
     "120x60": { normal: 70000, led: 95000 },
