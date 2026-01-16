@@ -401,20 +401,20 @@ footer a {
 
     /* ===== Hero/banner ===== */
     .hero-imagen {
-        width: 100%;
-        padding: 0 0.5rem;
-    }
-    .hero-imagen img {
-        width: 100%;           /* ocupa todo el ancho */
-        height: auto;          /* mantiene proporción */
-        max-height: 400px;     /* altura máxima para mobile */
-        object-fit: contain;   /* muestra toda la imagen sin recortar */
-        object-position: center;
-        border-radius: 16px;
-        display: block;
-        margin: auto;
-    }
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: visible; /* clave */
+    margin-top: -70px;
+  }
 
+  .hero-imagen img {
+    width: 110%;        /* 🔥 aumenta tamaño */
+    max-width: none;    /* 🔥 elimina límites */
+    height: auto;
+    display: block;
+    margin: 0 auto;     /* centra */
+  }
     /* ===== Categorías scroll horizontal ===== */
     .categorias {
         display: flex;
