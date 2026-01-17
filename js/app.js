@@ -598,52 +598,49 @@ const productos = [
   { nombre: "The Weekend 1", categoria: "musica", orientacion: "vertical", imagen: "img/musica/the-weekend-1.jpeg" },
 
   /* ================= CINE ================= */
-  { nombre: "Scarface 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-1.jpeg" },
-  { nombre: "Scarface 2", categoria: "cine", orientacion: "horizontal", imagen: "img/cine/scarface-2.jpeg" },
   { nombre: "Rocky 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rocky1.jpeg" },
-  { nombre: "Scarface 3", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-3.jpeg" },
-   { nombre: "Stranger Things 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-1.jpeg" },
-  { nombre: "Scarface 4", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-4.jpeg" },
-  { nombre: "Scarface 5", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-5.jpeg" },
+  { nombre: "Stranger Things 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-1.jpeg" },
   { nombre: "Rocky 2", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rocky2.jpeg" },
-  { nombre: "Scarface 6", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-6.jpeg" },
-  { nombre: "Scarface 7", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-7.jpeg" },
-  { nombre: "Scarface 8", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-8.jpeg" },
-  { nombre: "Scarface 9", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-9.jpeg" },
-  { nombre: "Scarface 10", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-10.jpeg" },
-  { nombre: "Scarface 11", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-11.jpeg" },
-  { nombre: "Scarface 12", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-12.jpeg" },
   { nombre: "Stranger Things 2", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-2.jpeg" },
-  { nombre: "Scarface 13", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-13.jpeg" },
-  { nombre: "Scarface 14", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-14.jpeg" },
-  { nombre: "Scarface 15", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-15.jpeg" },
-  { nombre: "Scarface 16", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-16.jpeg" },
   { nombre: "Stranger Things 3", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-3.jpeg" },
-  { nombre: "Scarface 17", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-17.jpeg" },
-  { nombre: "Scarface 18", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-18.jpeg" },
   { nombre: "Stranger Things 4", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-4.jpeg" },
   { nombre: "Stranger Things 5", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-5.jpeg" },
-  { nombre: "Scarface 19", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-19.jpeg" },
-  { nombre: "Scarface 20", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-20.jpeg" },
-  { nombre: "Scarface 21", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-21.jpeg" },
   { nombre: "Stranger Things 6", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-6.jpeg" },
-  { nombre: "Scarface 22", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-22.jpeg" },
-  { nombre: "Scarface 23", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-23.jpeg" },
   { nombre: "Marylin Monroe 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/marylin-monroe-1.jpeg" },
-  { nombre: "Scarface 24", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-24.jpeg" },
-  { nombre: "Scarface 25", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-25.jpeg" },
   { nombre: "Rapidos y furiosos 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rapidos-y-furiosos-1.jpeg", descripcion: "El precio incluye el set completo de 2 cuadros."},
-  { nombre: "Scarface 26", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-26.jpeg" },
-  { nombre: "Scarface 27", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-27.jpeg" },
-  { nombre: "Scarface 28", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-28.jpeg" },
-  { nombre: "Scarface 29", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-29.jpeg" },
   { nombre: "El Padrino 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/elpadrino-1.jpeg" },
-  
-  
-  
-  
-  
-  
+
+
+  /* ================= SCARFACE ================= */
+  { nombre: "Scarface 1", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-1.jpeg" },
+  { nombre: "Scarface 2", categoria: "scarface", orientacion: "horizontal", imagen: "img/scarface/scarface-2.jpeg" },
+  { nombre: "Scarface 3", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-3.jpeg" },
+  { nombre: "Scarface 4", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-4.jpeg" },
+  { nombre: "Scarface 5", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-5.jpeg" },
+  { nombre: "Scarface 6", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-6.jpeg" },
+  { nombre: "Scarface 7", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-7.jpeg" },
+  { nombre: "Scarface 8", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-8.jpeg" },
+  { nombre: "Scarface 9", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-9.jpeg" },
+  { nombre: "Scarface 10", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-10.jpeg" },
+  { nombre: "Scarface 11", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-11.jpeg" },
+  { nombre: "Scarface 12", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-12.jpeg" },
+  { nombre: "Scarface 13", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-13.jpeg" },
+  { nombre: "Scarface 14", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-14.jpeg" },
+  { nombre: "Scarface 15", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-15.jpeg" },
+  { nombre: "Scarface 16", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-16.jpeg" },
+  { nombre: "Scarface 17", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-17.jpeg" },
+  { nombre: "Scarface 18", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-18.jpeg" },
+  { nombre: "Scarface 19", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-19.jpeg" },
+  { nombre: "Scarface 20", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-20.jpeg" },
+  { nombre: "Scarface 21", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-21.jpeg" },
+  { nombre: "Scarface 22", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-22.jpeg" },
+  { nombre: "Scarface 23", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-23.jpeg" },
+  { nombre: "Scarface 24", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-24.jpeg" },
+  { nombre: "Scarface 25", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-25.jpeg" },
+  { nombre: "Scarface 26", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-26.jpeg" },
+  { nombre: "Scarface 27", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-27.jpeg" },
+  { nombre: "Scarface 28", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-28.jpeg" },
+  { nombre: "Scarface 29", categoria: "scarface", orientacion: "vertical", imagen: "img/scarface/scarface-29.jpeg" },
   
 
   /* ================= LUJO ================= */
@@ -797,65 +794,129 @@ const productos = [
 
 /* ================= KEYWORDS ================= */
 const keywords = {
+
   futbol: [
-    "futbol", "fútbol", "maradona", "pelota","cancha", "gol", "dios", "10", "d10s", "D10S", "seleccion", "campeones", "Seleccion", "Campeones", "Gol", "Futbol"
+    "futbol", "fútbol", "pelota", "cancha", "gol",
+    "maradona", "diego", "el diego", "d10s",
+    "seleccion", "argentina", "campeones",
+    "mundial", "qatar", "campeon del mundo",
+    "10", "numero 10"
   ],
 
   cine: [
-    "cine", "pelicula", "película",
-    "rocky", "padrino", "scarface",
-    "rapidos", "rápidos", "furiosos",
-    "stranger", "things", "alpachino", "scarface"
+    "cine", "pelicula", "película", "pelis",
+    "rocky", "rocky balboa",
+    "el padrino", "padrino",
+    "scarface",
+    "rapidos y furiosos", "rapidos", "furiosos",
+    "stranger things", "stranger"
   ],
 
   musica: [
-    "musica", "música", "soda",
-    "cantante", "rock", "The Weekend", "the weekend"
+    "musica", "música", "rock", "pop",
+    "soda", "soda stereo", "cerati",
+    "the weeknd", "weeknd",
+    "cantante", "banda", "musical"
   ],
 
   dolar: [
-    "dolar", "dólar", "billete", "usd"
+    "dolar", "dólar", "usd",
+    "billete", "billetes",
+    "dolares", "verdes"
   ],
 
   dinero: [
-    "dinero", "plata", "pato donald", "billetes"
+    "dinero", "plata", "efectivo", "cash"
   ],
 
   lujo: [
-    "lujo", "moet", "reloj",
-    "champagne", "botella", "botellas"
+    "lujo", "lujoso", "premium", "exclusivo",
+    "oro", "dorado",
+    "reloj", "relojes",
+    "champagne", "champan",
+    "moet", "botella"
   ],
 
   superheroes: [
-    "marvel", "MARVEL", "dc", "DC",
-    "spiderman", "guason", "joker"
+    "marvel", "dc",
+    "spiderman", "hombre araña",
+    "batman",
+    "joker", "guason",
+    "iron man", "thor"
   ],
 
   peakyblinders: [
-    "Tommy Shelby", "Shelby",
-    "mafia", "Mafia", "shelby", "thomas", "Thomas Shelby", "familia"
+    "peaky blinders", "peaky",
+    "tommy shelby", "thomas shelby",
+    "shelby",
+    "mafia", "gangster", "mafioso"
   ],
 
   monopoly: [
-    "monopoly", "dinero", "banco", "billetes"
+    "monopoly",
+    "juego", "juego de mesa",
+    "banco", "banquero",
+    "dinero", "billetes"
   ],
 
   formula1: [
-    "ferrari", "colapinto", "ayrton",
-    "Senna", "automovilismo", "autos"
+    "formula 1", "f1",
+    "autos", "automovilismo",
+    "senna", "ayrton", "ayrton senna",
+    "ferrari", "red bull",
+    "carreras"
+  ],
+
+  autos: [
+    "autos", "auto", "coche", "coches",
+    "deportivo", "superauto",
+    "ferrari", "lamborghini", "porsche",
+    "mustang", "ford mustang",
+    "velocidad", "motor"
   ],
 
   rickyricon: [
-    "ricky ricon", "ricky ricón", "richie rich",
-    "rico", "millonario", "dinero", "lujo",
-    "billetes", "banco", "cash", "usd", "niño rico", "Niño"
+    "ricky ricon", "ricky ricón",
+    "richie rich",
+    "niño rico", "nene rico",
+    "millonario", "rico",
+    "lujo", "dinero", "fortuna"
   ],
 
-  onepuece:[
-    "Anime", "Dibujitos", "Luffy", "Zoro"
+  tiorico: [
+    "tio rico", "tío rico",
+    "scrooge mcduck",
+    "rico mc pato",
+    "pato donald",
+    "oro", "monedas",
+    "fortuna", "millonario"
+  ],
+
+  scarface: [
+    "scarface",
+    "tony montana",
+    "mafia", "mafioso", "gangster",
+    "miami",
+    "dinero", "poder"
+  ],
+
+  onepiece: [
+    "one piece",
+    "anime", "dibujitos", "manga",
+    "luffy", "zoro",
+    "pirata", "piratas"
   ]
 
 };
+
+/* ================= NORMALIZAR TEXTO ================= */
+function normalizarTexto(texto) {
+  return texto
+    .toLowerCase()
+    .normalize("NFD")               // separa letras y acentos
+    .replace(/[\u0300-\u036f]/g, "") // elimina acentos
+    .trim();
+}
 
 
 /* ================= ESTADO ================= */
@@ -898,7 +959,8 @@ const inputBuscador = document.getElementById("buscador");
 
 if (inputBuscador) {
   inputBuscador.addEventListener("input", () => {
-    const texto = inputBuscador.value.toLowerCase().trim();
+    const texto = normalizarTexto(inputBuscador.value);
+
 
     if (texto === "") {
       listaVisible = [...productos];
@@ -907,12 +969,14 @@ if (inputBuscador) {
     }
 
     listaVisible = productos.filter(producto => {
-      if (producto.nombre.toLowerCase().includes(texto)) return true;
-
+      const nombreNormalizado = normalizarTexto(producto.nombre);
+      
+      if (nombreNormalizado.includes(texto)) return true;
       const palabrasClave = keywords[producto.categoria] || [];
       return palabrasClave.some(k =>
-        k.toLowerCase().includes(texto)
+        normalizarTexto(k).includes(texto)
       );
+
     });
 
     renderProductos();
@@ -953,9 +1017,6 @@ function renderProductos() {
         descripcion.remove();
       }
     }
-
-
-
     const selectMedida = card.querySelector(".select-medida");
     const checkLed = card.querySelector(".check-led");
     const cantidad = card.querySelector(".input-cantidad");
