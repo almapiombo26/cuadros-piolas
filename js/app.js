@@ -603,42 +603,49 @@ const productos = [
   { nombre: "Scarface 3", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-3.jpeg" },
   { nombre: "Scarface 4", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-4.jpeg" },
   { nombre: "Scarface 5", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-5.jpeg" },
+  { nombre: "Rocky 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rocky1.jpeg" },
+  { nombre: "Rocky 2", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rocky2.jpeg" },
   { nombre: "Scarface 6", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-6.jpeg" },
   { nombre: "Scarface 7", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-7.jpeg" },
   { nombre: "Scarface 8", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-8.jpeg" },
   { nombre: "Scarface 9", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-9.jpeg" },
+  { nombre: "Stranger Things 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-1.jpeg" },
+  
   { nombre: "Scarface 10", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-10.jpeg" },
   { nombre: "Scarface 11", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-11.jpeg" },
   { nombre: "Scarface 12", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-12.jpeg" },
+  { nombre: "Stranger Things 2", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-2.jpeg" },
   { nombre: "Scarface 13", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-13.jpeg" },
   { nombre: "Scarface 14", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-14.jpeg" },
   { nombre: "Scarface 15", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-15.jpeg" },
   { nombre: "Scarface 16", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-16.jpeg" },
+  { nombre: "Stranger Things 3", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-3.jpeg" },
   { nombre: "Scarface 17", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-17.jpeg" },
   { nombre: "Scarface 18", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-18.jpeg" },
+  { nombre: "Stranger Things 4", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-4.jpeg" },
+  { nombre: "Stranger Things 5", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-5.jpeg" },
   { nombre: "Scarface 19", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-19.jpeg" },
   { nombre: "Scarface 20", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-20.jpeg" },
   { nombre: "Scarface 21", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-21.jpeg" },
+  { nombre: "Stranger Things 6", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-6.jpeg" },
   { nombre: "Scarface 22", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-22.jpeg" },
   { nombre: "Scarface 23", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-23.jpeg" },
+  { nombre: "Marylin Monroe 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/marylin-monroe-1.jpeg" },
   { nombre: "Scarface 24", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-24.jpeg" },
   { nombre: "Scarface 25", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-25.jpeg" },
+  { nombre: "Rapidos y furiosos 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rapidos-y-furiosos-1.jpeg", descripcion: "El precio incluye el set completo de 2 cuadros."},
   { nombre: "Scarface 26", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-26.jpeg" },
   { nombre: "Scarface 27", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-27.jpeg" },
   { nombre: "Scarface 28", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-28.jpeg" },
   { nombre: "Scarface 29", categoria: "cine", orientacion: "vertical", imagen: "img/cine/scarface-29.jpeg" },
-
   { nombre: "El Padrino 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/elpadrino-1.jpeg" },
-  { nombre: "Marylin Monroe 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/marylin-monroe-1.jpeg" },
-  { nombre: "Rocky 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rocky1.jpeg" },
-  { nombre: "Rocky 2", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rocky2.jpeg" },
-  { nombre: "Rapidos y furiosos 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/rapidos-y-furiosos-1.jpeg", descripcion: "El precio incluye el set completo de 2 cuadros."},
-  { nombre: "Stranger Things 1", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-1.jpeg" },
-  { nombre: "Stranger Things 2", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-2.jpeg" },
-  { nombre: "Stranger Things 3", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-3.jpeg" },
-  { nombre: "Stranger Things 4", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-4.jpeg" },
-  { nombre: "Stranger Things 5", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-5.jpeg" },
-  { nombre: "Stranger Things 6", categoria: "cine", orientacion: "vertical", imagen: "img/cine/stranger-things-6.jpeg" },
+  
+  
+  
+  
+  
+  
+  
 
   /* ================= LUJO ================= */
   { nombre: "Moet", categoria: "lujo", orientacion: "vertical", imagen: "img/lujo/moet-1.jpeg" },
