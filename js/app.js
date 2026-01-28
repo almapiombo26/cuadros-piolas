@@ -6,24 +6,26 @@ const template = templateEl ? templateEl.content : null;
 /* ================= PRECIOS ================= */
 // Verticales
 const preciosVertical = {
-  "40x60": 40000,
-  "80x60": 60000,
-  "100x70": 80000
+  "40x60": 50000,
+  "80x60": 70000,
+  "100x70": 100000
 };
 const preciosVerticalLed = {
   "40x60": 65000,
-  "80x60": 85000,
-  "100x70": 100000
+  "80x60": 90000,
+  "100x70": 120000
 };
 
 // Horizontales
 const preciosHorizontal = {
-  "150x60": 100000,
-  "170x70": 130000
+  "110x50": 90000,
+  "150x60": 130000,
+  "170x70": 160000
 };
 const preciosHorizontalLed = {
-  "150x60": 145000,
-  "170x70": 160000
+  "110x50": 120000,
+  "150x60": 150000,
+  "170x70": 190000
 };
 
 /* ================= PRECIOS ESPECIALES ================= */
@@ -31,75 +33,84 @@ const preciosEspeciales = {
 
     /* ================= MONOPOLY ================= */
   "Monopoly 2": { /* ================= son 3 cuadros juntos ================= */
-    "60x40": { normal: 120000, led: 160000 }
+    "40x60": { normal: 150000, led: 195000 }
   },
 
   "Monopoly 17": {
-    "60x50": { normal: 60000, led: 85000 },
+    "60x50": { normal: 60000, led: 75000 },
     "80x70": { normal: 80000, led: 105000 },
-    "100x90": { normal: 100000, led: 125000 }
+    "100x90": { normal: 100000, led: 120000 }
   },
   "Monopoly 18": {
-    "60x50": { normal: 60000, led: 85000 },
+    "60x50": { normal: 60000, led: 75000 },
     "80x70": { normal: 80000, led: 105000 },
-    "100x90": { normal: 100000, led: 125000 }
+    "100x90": { normal: 100000, led: 120000 }
   },
   "Monopoly 19": {
-    "60x50": { normal: 60000, led: 85000 },
+    "60x50": { normal: 60000, led: 75000 },
     "80x70": { normal: 80000, led: 105000 },
-    "100x90": { normal: 100000, led: 125000 }
+    "100x90": { normal: 100000, led: 120000 }
   },
 
 
     /* ================= SCARFACE ================= */
 
   "Scarface 11": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Scarface 15": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
   "Scarface 21": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
   "Scarface 22": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Scarface 13": {
-    "40x70": { normal: 50000, led: 75000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Scarface 14": {
-    "40x70": { normal: 50000, led: 75000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
-  "Rapidos y furiosos 1": {
-    "60x40": { normal: 80000, led: 130000 },
-    "60x80": { normal: 120000, led: 170000 },
-    "70x100": { normal: 160000, led: 200000 }
-  },
 
   /* estos son mas cuadradones */
   "Scarface 26": {
-    "60x60": { normal: 60000, led: 85000 },
-    "80x80": { normal: 80000, led: 105000 },
-    "100x100": { normal: 100000, led: 125000 }
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
   },
 
   "Scarface 28": {
-    "60x60": { normal: 60000, led: 85000 },
-    "80x80": { normal: 80000, led: 105000 },
-    "100x100": { normal: 100000, led: 125000 }
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
+  },
+
+
+
+
+ /* ================= CINE ================= */
+   "Rapidos y furiosos 1": {
+    "40x60": { normal: 100000, led: 130000 },
+    "80x60": { normal: 140000, led: 180000 },
+    "100x70": { normal: 200000, led: 240000 }
   },
 
  /* ================= PEAKY BLINDERS ================= */
@@ -112,94 +123,94 @@ const preciosEspeciales = {
   },
 
   "Peaky Blinders 4": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
   "Peaky Blinders 5": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
   "Peaky Blinders 6": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Peaky Blinders 7": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
   "Peaky Blinders 8": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Peaky Blinders 9": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
   "Peaky Blinders 10": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
   "Peaky Blinders 12": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Peaky Blinders 13": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Peaky Blinders 14": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
    "Peaky Blinders 16": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
    "Peaky Blinders 17": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
    "Peaky Blinders 20": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
    "Peaky Blinders 21": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
    "Peaky Blinders 22": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
 
 
   "Peaky Blinders 11": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
@@ -207,145 +218,137 @@ const preciosEspeciales = {
 
 /* ================= FUTBOL ================= */
   "Diego Maradona 3": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
     
   },
 
   "Diego Maradona 6": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Lionel Messi 1": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Lionel Messi 2": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Lionel Messi 5": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Lionel Messi 4": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
   "Lionel Messi 7": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   /* ================= ONE PIECE ================= */
   "One Piece 2": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "One Piece 3": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "One Piece 5": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "One Piece 9": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "One Piece 10": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "One Piece 11": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "One Piece 18": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "One Piece 19": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
-
-
-
-
-
-
-
-/* poner precios q me diga dami */
   "One Piece 6": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
 
   "One Piece 7": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
 
   "One Piece 8": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
 
   "One Piece 13": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
 
 
 
 
   "One Piece 4": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "One Piece 12": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "One Piece 14": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
@@ -354,70 +357,70 @@ const preciosEspeciales = {
   /* ================= TIO RICO ================= */
 
   "Tio Rico 2": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Tio Rico 3": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Tio Rico 5": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Tio Rico 10": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Tio Rico 20": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
 
   "Tio Rico 4": {
-    "60x60": { normal: 60000, led: 85000 },
-    "80x80": { normal: 80000, led: 105000 },
-    "100x100": { normal: 100000, led: 125000 }
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
   },
 
   "Tio Rico 9": {
-    "60x60": { normal: 60000, led: 85000 },
-    "80x80": { normal: 80000, led: 105000 },
-    "100x100": { normal: 100000, led: 125000 }
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
   },
 
   "Tio Rico 11": {
-    "60x60": { normal: 60000, led: 85000 },
-    "80x80": { normal: 80000, led: 105000 },
-    "100x100": { normal: 100000, led: 125000 }
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
   },
 
   "Tio Rico 15": {
-    "60x60": { normal: 60000, led: 85000 },
-    "80x80": { normal: 80000, led: 105000 },
-    "100x100": { normal: 100000, led: 125000 }
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
   },
 
   "Tio Rico 17": {
-    "60x60": { normal: 60000, led: 85000 },
-    "80x80": { normal: 80000, led: 105000 },
-    "100x100": { normal: 100000, led: 125000 }
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
   },
 
   "Tio Rico 18": {
-    "60x60": { normal: 60000, led: 85000 },
-    "80x80": { normal: 80000, led: 105000 },
-    "100x100": { normal: 100000, led: 125000 }
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
   },
 
   "Tio Rico 1": { /* ver precios*/
@@ -427,107 +430,100 @@ const preciosEspeciales = {
   },
 
   "Tio Rico 8": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
 /* ================= AUTOS ================= */
 
   "Autos 1": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Autos 2": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Autos 10": {
-    "40x70": { normal: 50000, led: 75000 },
-    "60x90": { normal: 70000, led: 95000 },
-    "70x110": { normal: 90000, led: 110000 }
+    "40x70": { normal: 60000, led: 80000 },
+    "60x90": { normal: 85000, led: 105000 },
+    "70x110": { normal: 100000, led: 130000 }
   },
 
   "Autos 5": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Autos 6": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Autos 14": {
-    "50x60": { normal: 60000, led: 85000 },
+    "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
   "Autos 4": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
 
   "Autos 8": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
   "Autos 9": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
   "Autos 11": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
   "Autos 12": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
   "Autos 13": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
   "Autos 15": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
   "Autos 17": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
   "Autos 18": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
   "Autos 19": {
-    "80x40": { normal: 60000, led: 90000 },
-    "120x60": { normal: 80000, led: 110000 },
-    "150x60": { normal: 100000, led: 130000 }
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
   },
-
-
-
-
-
-
-
 
 
 
