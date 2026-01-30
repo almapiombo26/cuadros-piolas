@@ -1149,3 +1149,18 @@ function mostrarMiniCarrito(item) {
     if (mini) mini.remove();
   }, 4000);
 }
+
+
+
+// ===== BUSQUEDA DESDE INDEX =====
+const params = new URLSearchParams(window.location.search);
+const searchParam = params.get("search");
+
+if (searchParam) {
+  const buscador = document.getElementById("buscador");
+  if (buscador) {
+    buscador.value = decodeURIComponent(searchParam);
+    buscador.dispatchEvent(new Event("input"));
+  }
+}
+
