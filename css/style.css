@@ -293,6 +293,67 @@ main {
     background-color: #1ebe5d;
 }
 
+
+
+
+/* ================= BUSCADOR OVERLAY ================= */
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.65);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.search-overlay.active {
+  display: flex;
+}
+
+.search-box {
+  background: #fff;
+  width: 90%;
+  max-width: 420px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.25);
+  animation: fadeUp .25s ease;
+}
+
+.search-box i {
+  font-size: 20px;
+  color: #dc3545;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* ================= HERO IMAGEN ================= */
 .hero-imagen {
     width: 100%;

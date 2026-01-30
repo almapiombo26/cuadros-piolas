@@ -893,7 +893,7 @@ const keywords = {
     "tony montana",
     "mafia", "mafioso", "gangster",
     "miami",
-    "dinero", "poder"
+    "elvira"
   ],
 
   onepiece: [
@@ -1163,4 +1163,42 @@ if (searchParam) {
     buscador.dispatchEvent(new Event("input"));
   }
 }
+
+
+/* ================= BUSCADOR OVERLAY INDEX ================= */
+document.addEventListener("DOMContentLoaded", () => {
+
+  const btnLupa = document.getElementById("btn-lupa");
+  const overlay = document.getElementById("search-overlay");
+  const inputMobile = document.getElementById("search-mobile");
+  const closeSearch = document.getElementById("close-search");
+
+  if (!btnLupa || !overlay) return;
+
+  btnLupa.addEventListener("click", () => {
+    overlay.classList.add("active");
+    setTimeout(() => inputMobile.focus(), 200);
+  });
+
+  closeSearch.addEventListener("click", () => {
+    overlay.classList.remove("active");
+    inputMobile.value = "";
+  });
+
+  overlay.addEventListener("click", e => {
+    if (e.target === overlay) {
+      overlay.classList.remove("active");
+      inputMobile.value = "";
+    }
+  });
+
+  inputMobile.addEventListener("keydown", e => {
+    if (e.key === "Enter" && inputMobile.value.trim() !== "") {
+      window.location.href =
+        `productos.html?search=${encodeURIComponent(inputMobile.value.trim())}`;
+    }
+  });
+
+});
+
 

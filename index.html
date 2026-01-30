@@ -33,9 +33,6 @@
         <i class="bi bi-search"></i>
       </button>
       
-      <input type="search" id="input-buscar-navbar" class="form-control form-control-sm d-none" placeholder="Buscar..." style="width: 140px;"/>
-
-
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -208,22 +205,20 @@
 
 <script src="js/app.js"></script>
 
-<script>
-  const btnLupa = document.getElementById("btn-lupa");
-  const inputBuscar = document.getElementById("input-buscar-navbar");
+<!-- ================= BUSCADOR OVERLAY MOBILE ================= -->
+<div id="search-overlay" class="search-overlay">
+  <div class="search-box">
+    <i class="bi bi-search"></i>
+    <input
+      type="text"
+      id="search-mobile"
+      placeholder="Buscar cuadros, ej: Maradona"
+      autocomplete="off"
+    >
+    <button id="close-search">✕</button>
+  </div>
+</div>
 
-  btnLupa.addEventListener("click", () => {
-    inputBuscar.classList.toggle("d-none");
-    inputBuscar.focus();
-  });
-
-  inputBuscar.addEventListener("keydown", (e) => {
-    if (e.key === "Enter" && inputBuscar.value.trim() !== "") {
-      const termino = encodeURIComponent(inputBuscar.value.trim());
-      window.location.href = `productos.html?search=${termino}`;
-    }
-  });
-</script>
 
 </body>
 </html>
