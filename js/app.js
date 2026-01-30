@@ -36,74 +36,31 @@ const preciosEspeciales = {
     "40x60": { normal: 150000, led: 195000 }
   },
 
-  "Monopoly 17": {
+  "Monopoly 17, Monopoly 18, Monopoly 19": {
     "60x50": { normal: 60000, led: 75000 },
     "80x70": { normal: 80000, led: 105000 },
     "100x90": { normal: 100000, led: 120000 }
   },
-  "Monopoly 18": {
-    "60x50": { normal: 60000, led: 75000 },
-    "80x70": { normal: 80000, led: 105000 },
-    "100x90": { normal: 100000, led: 120000 }
-  },
-  "Monopoly 19": {
-    "60x50": { normal: 60000, led: 75000 },
-    "80x70": { normal: 80000, led: 105000 },
-    "100x90": { normal: 100000, led: 120000 }
-  },
-
-
     /* ================= SCARFACE ================= */
 
-  "Scarface 11": {
+  "Scarface 11, Scarface 15, Scarface 21, Scarface 22": {
     "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
-  "Scarface 15": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-  "Scarface 21": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-  "Scarface 22": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "Scarface 13": {
+  "Scarface 13, Scarface 14": {
     "40x70": { normal: 60000, led: 80000 },
     "60x90": { normal: 85000, led: 105000 },
     "70x110": { normal: 100000, led: 130000 }
   },
-
-  "Scarface 14": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
 
   /* estos son mas cuadradones */
-  "Scarface 26": {
+  "Scarface 26, Scarface 28": {
     "60x60": { normal: 70000, led: 90000 },
     "80x80": { normal: 100000, led: 120000 },
     "100x100": { normal: 130000, led: 150000 }
   },
-
-  "Scarface 28": {
-    "60x60": { normal: 70000, led: 90000 },
-    "80x80": { normal: 100000, led: 120000 },
-    "100x100": { normal: 130000, led: 150000 }
-  },
-
-
 
 
  /* ================= CINE ================= */
@@ -115,99 +72,15 @@ const preciosEspeciales = {
 
  /* ================= PEAKY BLINDERS ================= */
 
-  "Peaky Blinders 1": {
-    "125x80": { normal: 100000, led: 140000 }
-  },
-  "Peaky Blinders 2": {
+  "Peaky Blinders 1, Peaky Blinders 2": {
     "125x80": { normal: 100000, led: 140000 }
   },
 
-  "Peaky Blinders 4": {
+  "Peaky Blinders 4, Peaky Blinders 5, Peaky Blinders 6, Peaky Blinders 7, Peaky Blinders 8, Peaky Blinders 9, Peaky Blinders 10, Peaky Blinders 12, Peaky Blinders 13, Peaky Blinders 14, Peaky Blinders 16, Peaky Blinders 17, Peaky Blinders 20, Peaky Blinders 21, Peaky Blinders 22": {
     "40x70": { normal: 60000, led: 80000 },
     "60x90": { normal: 85000, led: 105000 },
     "70x110": { normal: 100000, led: 130000 }
   },
-  "Peaky Blinders 5": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-  "Peaky Blinders 6": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "Peaky Blinders 7": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-  "Peaky Blinders 8": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "Peaky Blinders 9": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-  "Peaky Blinders 10": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-  "Peaky Blinders 12": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "Peaky Blinders 13": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "Peaky Blinders 14": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-   "Peaky Blinders 16": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-   "Peaky Blinders 17": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-   "Peaky Blinders 20": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-   "Peaky Blinders 21": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-   "Peaky Blinders 22": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-
 
   "Peaky Blinders 11": {
     "50x60": { normal: 60000, led: 75000 },
@@ -217,7 +90,7 @@ const preciosEspeciales = {
 
 
 /* ================= FUTBOL ================= */
-  "Diego Maradona 3": {
+  "Diego Maradona 3, Lionel Messi 4, Lionel Messi 7": {
     "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
@@ -230,124 +103,29 @@ const preciosEspeciales = {
     "70x110": { normal: 100000, led: 130000 }
   },
 
-  "Lionel Messi 1": {
+  "Lionel Messi 1, Lionel Messi 2, Lionel Messi 5": {
     "40x70": { normal: 60000, led: 80000 },
     "60x90": { normal: 85000, led: 105000 },
     "70x110": { normal: 100000, led: 130000 }
   },
 
-  "Lionel Messi 2": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "Lionel Messi 5": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "Lionel Messi 4": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-  "Lionel Messi 7": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
 
   /* ================= ONE PIECE ================= */
-  "One Piece 2": {
+  "One Piece 2, One Piece 3, One Piece 5, One Piece 9, One Piece 10, One Piece 11, One Piece 18, One Piece 19": {
     "40x70": { normal: 60000, led: 80000 },
     "60x90": { normal: 85000, led: 105000 },
     "70x110": { normal: 100000, led: 130000 }
   },
 
-  "One Piece 3": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
 
-  "One Piece 5": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "One Piece 9": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "One Piece 10": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "One Piece 11": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "One Piece 18": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "One Piece 19": {
-    "40x70": { normal: 60000, led: 80000 },
-    "60x90": { normal: 85000, led: 105000 },
-    "70x110": { normal: 100000, led: 130000 }
-  },
-
-  "One Piece 6": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-
-  "One Piece 7": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-
-  "One Piece 8": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-
-  "One Piece 13": {
+  "One Piece 6, One Piece 7, One Piece 8, One Piece 13 ": {
     "80x40": { normal: 80000, led: 100000 },
     "120x60": { normal: 100000, led: 130000 },
     "150x60": { normal: 130000, led: 150000 }
   },
 
 
-
-
-  "One Piece 4": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "One Piece 12": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "One Piece 14": {
+  "One Piece 4, One Piece 12, One Piece 14": {
     "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
@@ -356,74 +134,19 @@ const preciosEspeciales = {
 
   /* ================= TIO RICO ================= */
 
-  "Tio Rico 2": {
+  "Tio Rico 2, Tio Rico 3, Tio Rico 5, Tio Rico 10, Tio Rico 20": {
     "50x60": { normal: 60000, led: 75000 },
     "70x80": { normal: 80000, led: 105000 },
     "90x100": { normal: 100000, led: 125000 }
   },
 
-  "Tio Rico 3": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "Tio Rico 5": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "Tio Rico 10": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "Tio Rico 20": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-
-  "Tio Rico 4": {
+  "Tio Rico 4, Tio Rico 9, Tio Rico 11, Tio Rico 15, Tio Rico 17, Tio Rico 18": {
     "60x60": { normal: 70000, led: 90000 },
     "80x80": { normal: 100000, led: 120000 },
     "100x100": { normal: 130000, led: 150000 }
   },
 
-  "Tio Rico 9": {
-    "60x60": { normal: 70000, led: 90000 },
-    "80x80": { normal: 100000, led: 120000 },
-    "100x100": { normal: 130000, led: 150000 }
-  },
-
-  "Tio Rico 11": {
-    "60x60": { normal: 70000, led: 90000 },
-    "80x80": { normal: 100000, led: 120000 },
-    "100x100": { normal: 130000, led: 150000 }
-  },
-
-  "Tio Rico 15": {
-    "60x60": { normal: 70000, led: 90000 },
-    "80x80": { normal: 100000, led: 120000 },
-    "100x100": { normal: 130000, led: 150000 }
-  },
-
-  "Tio Rico 17": {
-    "60x60": { normal: 70000, led: 90000 },
-    "80x80": { normal: 100000, led: 120000 },
-    "100x100": { normal: 130000, led: 150000 }
-  },
-
-  "Tio Rico 18": {
-    "60x60": { normal: 70000, led: 90000 },
-    "80x80": { normal: 100000, led: 120000 },
-    "100x100": { normal: 130000, led: 150000 }
-  },
-
-  "Tio Rico 1": { /* ver precios*/
+  "Tio Rico 1": { 
     "80x40": { normal: 60000, led: 90000 },
     "120x60": { normal: 80000, led: 110000 },
     "150x60": { normal: 100000, led: 130000 }
@@ -437,107 +160,91 @@ const preciosEspeciales = {
 
 /* ================= AUTOS ================= */
 
-  "Autos 1": {
+  "Autos 1, Autos 2, Autos 10": {
     "40x70": { normal: 60000, led: 80000 },
     "60x90": { normal: 85000, led: 105000 },
     "70x110": { normal: 100000, led: 130000 }
   },
 
-  "Autos 2": {
+
+  "Autos 5, Autos 6, Autos 14": {
+    "50x60": { normal: 60000, led: 75000 },
+    "70x80": { normal: 80000, led: 105000 },
+    "90x100": { normal: 100000, led: 125000 }
+  },
+
+  "Autos 4, Autos 8, Autos 9, Autos 11, Autos 12, Autos 13, Autos 15, Autos 17, Autos 18, Autos 19": {
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
+  },
+
+  /* ================= ARTE MODERNO ================= */
+
+  "Arte Moderno 3, Arte Moderno 4, Arte Moderno 5, Arte Moderno 6, Arte Moderno 7, Arte Moderno 8, Arte Moderno 9, Arte Moderno 12, Arte Moderno 14, Arte Moderno 16, Arte Moderno 17, Arte Moderno 25": {
     "40x70": { normal: 60000, led: 80000 },
     "60x90": { normal: 85000, led: 105000 },
     "70x110": { normal: 100000, led: 130000 }
   },
 
-  "Autos 10": {
+  "Arte Moderno 10, Arte Moderno 11, Arte Moderno 13, Arte Moderno 15, Arte Moderno 20, Arte Moderno 22": {
+    "50x60": { normal: 60000, led: 75000 },
+    "70x80": { normal: 80000, led: 105000 },
+    "90x100": { normal: 100000, led: 125000 }
+  },
+
+  "Arte Moderno 23": {
+    "80x40": { normal: 80000, led: 100000 },
+    "120x60": { normal: 100000, led: 130000 },
+    "150x60": { normal: 130000, led: 150000 }
+  },
+  /* ================= RICKY RICON ================= */
+
+  "Ricky Ricon 5": {
     "40x70": { normal: 60000, led: 80000 },
     "60x90": { normal: 85000, led: 105000 },
     "70x110": { normal: 100000, led: 130000 }
   },
-
-  "Autos 5": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "Autos 6": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "Autos 14": {
-    "50x60": { normal: 60000, led: 75000 },
-    "70x80": { normal: 80000, led: 105000 },
-    "90x100": { normal: 100000, led: 125000 }
-  },
-
-  "Autos 4": {
+  "Ricky Ricon 9": {
     "80x40": { normal: 80000, led: 100000 },
     "120x60": { normal: 100000, led: 130000 },
     "150x60": { normal: 130000, led: 150000 }
   },
-
-  "Autos 8": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
+  "Ricky Ricon 7, Ricky Ricon 8": {
+    "60x60": { normal: 70000, led: 90000 },
+    "80x80": { normal: 100000, led: 120000 },
+    "100x100": { normal: 130000, led: 150000 }
   },
-  "Autos 9": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-  "Autos 11": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-  "Autos 12": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-  "Autos 13": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-  "Autos 15": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-  "Autos 17": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-  "Autos 18": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-  "Autos 19": {
-    "80x40": { normal: 80000, led: 100000 },
-    "120x60": { normal: 100000, led: 130000 },
-    "150x60": { normal: 130000, led: 150000 }
-  },
-
-
-
-
-
-
-
-
-
-
 };
 
 /* ================= PRODUCTOS ================= */
 const productos = [
+  { nombre: "Arte Moderno 1", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno1.jpeg" },
+  { nombre: "Arte Moderno 2", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno2.jpeg" },
+  { nombre: "Arte Moderno 3", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno3.jpeg" },
+  { nombre: "Arte Moderno 4", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno4.jpeg" },
+  { nombre: "Arte Moderno 5", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno5.jpeg" },
+  { nombre: "Arte Moderno 6", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno6.jpeg" },
+  { nombre: "Arte Moderno 7", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno7.jpeg" },
+  { nombre: "Arte Moderno 8", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno8.jpeg" },
+  { nombre: "Arte Moderno 9", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno9.jpeg" },
+  { nombre: "Arte Moderno 10", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno10.jpeg" },
+  { nombre: "Arte Moderno 11", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno11.jpeg" },
+  { nombre: "Arte Moderno 12", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno12.jpeg" },
+  { nombre: "Arte Moderno 13", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno13.jpeg" },
+  { nombre: "Arte Moderno 14", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno14.jpeg" },
+  { nombre: "Arte Moderno 15", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno15.jpeg" },
+  { nombre: "Arte Moderno 16", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno16.jpeg" },
+  { nombre: "Arte Moderno 17", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno17.jpeg" },
+  { nombre: "Arte Moderno 18", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno18.jpeg" },
+  { nombre: "Arte Moderno 19", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno19.jpeg" },
+  { nombre: "Arte Moderno 20", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno20.jpeg" },
+  { nombre: "Arte Moderno 21", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno21.jpeg" },
+  { nombre: "Arte Moderno 22", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno22.jpeg" },
+  { nombre: "Arte Moderno 23", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno23.jpeg" },
+  { nombre: "Arte Moderno 24", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno24.jpeg" },
+  { nombre: "Arte Moderno 25", categoria: "artemoderno", orientacion: "vertical", imagen: "img/artemoderno/arte-moderno25.jpeg" },
+
   /* ================= DOLAR ================= */
   { nombre: "Dólar 1", categoria: "dolar", orientacion: "horizontal", imagen: "img/dolar/dolar-1.jpeg" },
   { nombre: "Dólar 2", categoria: "dolar", orientacion: "horizontal", imagen: "img/dolar/dolar-2.jpeg" },
@@ -694,8 +401,6 @@ const productos = [
   { nombre: "One Piece 18", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece18.jpeg" },
   { nombre: "One Piece 19", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece19.jpeg" },
 
-
-
   /* ================= PEAKY BLINDERS ================= */
   { nombre: "Peaky Blinders 1", categoria: "peakyblinders", orientacion: "vertical", imagen: "img/peakyblinders/Peaky-blinders-1.jpeg" },
   { nombre: "Peaky Blinders 2", categoria: "peakyblinders", orientacion: "vertical", imagen: "img/peakyblinders/peaky-blinders-2.jpeg" },
@@ -782,12 +487,7 @@ const productos = [
   { nombre: "Ricky ricon 7", categoria: "rickyricon", orientacion: "vertical", imagen: "img/ricky-ricon/ricky-ricon-7.jpeg" },
   { nombre: "Ricky ricon 8", categoria: "rickyricon", orientacion: "vertical", imagen: "img/ricky-ricon/ricky-ricon-8.jpeg" },
   { nombre: "Ricky ricon 9", categoria: "rickyricon", orientacion: "vertical", imagen: "img/ricky-ricon/ricky-ricon-9.jpeg" }
-
-
 ];
-
-
-
 /* ================= KEYWORDS ================= */
 const keywords = {
 
@@ -905,219 +605,69 @@ const keywords = {
 
 };
 
-/* ================= NORMALIZAR TEXTO ================= */
+
+/* ================= PRODUCTOS & PRECIOS ================= */
+let listaVisible = [...productos]; // productos debe estar definido
+
+/* ================= FUNCIONES ================= */
+
+/* --- Normalizar texto --- */
 function normalizarTexto(texto) {
   return texto
     .toLowerCase()
-    .normalize("NFD")               // separa letras y acentos
-    .replace(/[\u0300-\u036f]/g, "") // elimina acentos
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
     .trim();
 }
 
-
-/* ================= ESTADO ================= */
-let listaVisible = [...productos];
-
-/* ================= CATEGORÍAS ================= */
-const personalizadosSection = document.getElementById("personalizados-section");
-
-document.querySelectorAll(".categorias button").forEach(btn => {
-  btn.addEventListener("click", () => {
-
-    document.querySelectorAll(".categorias button")
-      .forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-
-    const cat = btn.dataset.cat;
-
-    // 👇 CASO PERSONALIZADOS
-    if (cat === "personalizados") {
-      contenedor.innerHTML = "";
-      document.getElementById("sin-resultados").classList.add("d-none");
-      personalizadosSection.classList.remove("d-none");
-      return;
+/* --- Obtener precio --- */
+function obtenerPrecio(medida, led, orientacion, nombreProducto) {
+  // Revisar precios especiales
+  for (const clave in preciosEspeciales) {
+    const nombres = clave.split(',').map(n => n.trim()); // separar nombres por coma
+    if (nombres.includes(nombreProducto)) {
+      const precioObj = preciosEspeciales[clave][medida];
+      if (!precioObj) return null;
+      return led ? precioObj.led : precioObj.normal;
     }
+  }
 
-    // 👇 resto normal
-    personalizadosSection.classList.add("d-none");
+  // Precios generales
+  if (orientacion === "horizontal") {
+    return led ? preciosHorizontalLed[medida] : preciosHorizontal[medida];
+  } else if (orientacion === "vertical") {
+    return led ? preciosVerticalLed[medida] : preciosVertical[medida];
+  }
 
-    listaVisible = cat === "todos"
-      ? [...productos]
-      : productos.filter(p => p.categoria === cat);
-
-    renderProductos();
-  });
-});
-
-
-/* ================= BUSCADOR ================= */
-const inputBuscador = document.getElementById("buscador");
-
-if (inputBuscador) {
-  inputBuscador.addEventListener("input", () => {
-    const texto = normalizarTexto(inputBuscador.value);
-
-
-    if (texto === "") {
-      listaVisible = [...productos];
-      renderProductos();
-      return;
-    }
-
-    listaVisible = productos.filter(producto => {
-      const nombreNormalizado = normalizarTexto(producto.nombre);
-      
-      if (nombreNormalizado.includes(texto)) return true;
-      const palabrasClave = keywords[producto.categoria] || [];
-      return palabrasClave.some(k =>
-        normalizarTexto(k).includes(texto)
-      );
-
-    });
-
-    renderProductos();
-  });
+  return null;
 }
 
 
-/* ================= CARRITO ================= */
+/* --- Actualizar contador carrito --- */
 function actualizarCartCount() {
   const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
   const total = carrito.reduce((acc, item) => acc + item.cantidad, 0);
   document.querySelectorAll("#cart-count").forEach(c => c.textContent = total);
 }
 
-/* ================= RENDER ================= */
-function obtenerPrecio(medida, led, orientacion, nombre) {
-  if (preciosEspeciales[nombre] && preciosEspeciales[nombre][medida]) {
-    return led ? preciosEspeciales[nombre][medida].led : preciosEspeciales[nombre][medida].normal;
-  }
-  return orientacion === "horizontal"
-    ? led ? preciosHorizontalLed[medida] : preciosHorizontal[medida]
-    : led ? preciosVerticalLed[medida] : preciosVertical[medida];
-}
-
-function renderProductos() {
-  if (!contenedor || !template) return;
-  contenedor.innerHTML = "";
-
-  listaVisible.forEach(producto => {
-    const card = template.cloneNode(true);
-    const img = card.querySelector(".cuadro-img");
-    const nombre = card.querySelector(".cuadro-nombre");
-    const descripcion = card.querySelector(".cuadro-descripcion");
-    if (descripcion) {
-      if (producto.descripcion) {
-        descripcion.textContent = producto.descripcion;
-      } else {
-        descripcion.remove();
-      }
-    }
-    const selectMedida = card.querySelector(".select-medida");
-    const checkLed = card.querySelector(".check-led");
-    const cantidad = card.querySelector(".input-cantidad");
-    const precioEl = card.querySelector(".precio");
-    const btnAgregar = card.querySelector(".btn-agregar");
-
-    img.src = producto.imagen;
-    img.style.cursor = "pointer";
-    img.onclick = () => {
-      document.getElementById("imagenModalSrc").src = img.src;
-      new bootstrap.Modal(document.getElementById("imagenModal")).show();
-    };
-
-    nombre.textContent = producto.nombre;
-
-
-
-    const medidas = preciosEspeciales[producto.nombre]
-      ? Object.keys(preciosEspeciales[producto.nombre])
-      : producto.orientacion === "horizontal"
-        ? Object.keys(preciosHorizontal)
-        : Object.keys(preciosVertical);
-
-    medidas.forEach(m => {
-      const opt = document.createElement("option");
-      opt.value = m;
-      opt.textContent = `${m} cm`;
-      selectMedida.appendChild(opt);
-    });
-
-    function actualizarPrecio() {
-      const precio = obtenerPrecio(selectMedida.value, checkLed.checked, producto.orientacion, producto.nombre);
-      precioEl.textContent = `$${(precio * (cantidad.value || 1)).toLocaleString("es-AR")}`;
-    }
-
-    selectMedida.onchange = actualizarPrecio;
-    checkLed.onchange = actualizarPrecio;
-    cantidad.oninput = actualizarPrecio;
-    actualizarPrecio();
-
-    btnAgregar.onclick = () => {
-      const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-      carrito.push({
-        producto: producto.nombre,
-        imagen: producto.imagen,
-        categoria: producto.categoria,
-        medida: selectMedida.value,
-        led: checkLed.checked,
-        cantidad: Number(cantidad.value) || 1,
-        precioUnitario: obtenerPrecio(selectMedida.value, checkLed.checked, producto.orientacion, producto.nombre)
-      });
-      localStorage.setItem("carrito", JSON.stringify(carrito));
-      actualizarCartCount();
-
-      actualizarCartCount();
-      mostrarMiniCarrito({
-  
-        nombre: producto.nombre,
-  
-        imagen: producto.imagen,
-  
-        medida: selectMedida.value,
-  
-        cantidad: Number(cantidad.value) || 1,
-  
-        precio: obtenerPrecio(
-    
-          selectMedida.value,
-    
-          checkLed.checked,
-    
-          producto.orientacion,
-    
-          producto.nombre
-  
-        )
-
-      });
-
-    };
-
-    contenedor.appendChild(card);
-  });
-}
-
-/* ================= INIT ================= */
-actualizarCartCount();
-renderProductos();
-
+/* --- Mostrar mini carrito --- */
 function mostrarMiniCarrito(item) {
   let mini = document.getElementById("mini-carrito");
-
   if (!mini) {
     mini = document.createElement("div");
     mini.id = "mini-carrito";
-    mini.style.position = "fixed";
-    mini.style.top = "90px";
-    mini.style.right = "20px";
-    mini.style.width = "320px";
-    mini.style.background = "#fff";
-    mini.style.borderRadius = "12px";
-    mini.style.boxShadow = "0 10px 30px rgba(0,0,0,.2)";
-    mini.style.zIndex = "9999";
-    mini.style.padding = "16px";
-    mini.style.fontFamily = "inherit";
+    Object.assign(mini.style, {
+      position: "fixed",
+      top: "90px",
+      right: "20px",
+      width: "320px",
+      background: "#fff",
+      borderRadius: "12px",
+      boxShadow: "0 10px 30px rgba(0,0,0,.2)",
+      zIndex: "9999",
+      padding: "16px",
+      fontFamily: "inherit",
+    });
     document.body.appendChild(mini);
   }
 
@@ -1145,29 +695,155 @@ function mostrarMiniCarrito(item) {
     ">VER CARRITO</a>
   `;
 
-  setTimeout(() => {
-    if (mini) mini.remove();
-  }, 4000);
+  setTimeout(() => mini.remove(), 4000);
 }
 
+/* --- Render productos --- */
+function renderProductos() {
+  if (!contenedor || !template) return;
+  contenedor.innerHTML = "";
 
+  listaVisible.forEach(producto => {
+    const card = template.cloneNode(true);
+    const img = card.querySelector(".cuadro-img");
+    const nombre = card.querySelector(".cuadro-nombre");
+    const descripcion = card.querySelector(".cuadro-descripcion");
+    if (descripcion) {
+      if (producto.descripcion) {
+        descripcion.textContent = producto.descripcion;
+      } else {
+        descripcion.remove();
+      }
+    }
 
-// ===== BUSQUEDA DESDE INDEX =====
+    const selectMedida = card.querySelector(".select-medida");
+    const checkLed = card.querySelector(".check-led");
+    const cantidad = card.querySelector(".input-cantidad");
+    const precioEl = card.querySelector(".precio");
+    const btnAgregar = card.querySelector(".btn-agregar");
+
+    img.src = producto.imagen;
+    img.style.cursor = "pointer";
+    img.onclick = () => {
+      document.getElementById("imagenModalSrc").src = img.src;
+      new bootstrap.Modal(document.getElementById("imagenModal")).show();
+    };
+
+    nombre.textContent = producto.nombre;
+
+    // 🔹 Medidas especiales o generales
+    let medidas = [];
+    for (const clave in preciosEspeciales) {
+      const nombres = clave.split(',').map(n => n.trim());
+      if (nombres.includes(producto.nombre)) {
+        medidas = Object.keys(preciosEspeciales[clave]);
+        break;
+      }
+    }
+    if (medidas.length === 0) {
+      medidas = producto.orientacion === "horizontal"
+        ? Object.keys(preciosHorizontal)
+        : Object.keys(preciosVertical);
+    }
+
+    medidas.forEach(m => {
+      const opt = document.createElement("option");
+      opt.value = m;
+      opt.textContent = `${m} cm`;
+      selectMedida.appendChild(opt);
+    });
+
+    function actualizarPrecio() {
+      const precio = obtenerPrecio(selectMedida.value, checkLed.checked, producto.orientacion, producto.nombre);
+      precioEl.textContent = precio ? `$${(precio * (cantidad.value || 1)).toLocaleString("es-AR")}` : "$0";
+    }
+
+    selectMedida.onchange = actualizarPrecio;
+    checkLed.onchange = actualizarPrecio;
+    cantidad.oninput = actualizarPrecio;
+    actualizarPrecio();
+
+    btnAgregar.onclick = () => {
+      const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+      const precioUnitario = obtenerPrecio(selectMedida.value, checkLed.checked, producto.orientacion, producto.nombre);
+      carrito.push({
+        producto: producto.nombre,
+        imagen: producto.imagen,
+        categoria: producto.categoria,
+        medida: selectMedida.value,
+        led: checkLed.checked,
+        cantidad: Number(cantidad.value) || 1,
+        precioUnitario: precioUnitario
+      });
+      localStorage.setItem("carrito", JSON.stringify(carrito));
+      actualizarCartCount();
+
+      mostrarMiniCarrito({
+        nombre: producto.nombre,
+        imagen: producto.imagen,
+        medida: selectMedida.value,
+        cantidad: Number(cantidad.value) || 1,
+        precio: precioUnitario
+      });
+    };
+
+    contenedor.appendChild(card);
+  });
+}
+
+/* ================= CATEGORÍAS ================= */
+const personalizadosSection = document.getElementById("personalizados-section");
+document.querySelectorAll(".categorias button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".categorias button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+
+    const cat = btn.dataset.cat;
+    if (cat === "personalizados") {
+      contenedor.innerHTML = "";
+      document.getElementById("sin-resultados").classList.add("d-none");
+      personalizadosSection.classList.remove("d-none");
+      return;
+    }
+
+    personalizadosSection.classList.add("d-none");
+    listaVisible = cat === "todos" ? [...productos] : productos.filter(p => p.categoria === cat);
+    renderProductos();
+  });
+});
+
+/* ================= BUSCADOR ================= */
+const inputBuscador = document.getElementById("buscador");
+if (inputBuscador) {
+  inputBuscador.addEventListener("input", () => {
+    const texto = normalizarTexto(inputBuscador.value);
+    if (!texto) { listaVisible = [...productos]; renderProductos(); return; }
+
+    listaVisible = productos.filter(producto => {
+      const nombreNormalizado = normalizarTexto(producto.nombre);
+      if (nombreNormalizado.includes(texto)) return true;
+      const palabrasClave = keywords[producto.categoria] || [];
+      return palabrasClave.some(k => normalizarTexto(k).includes(texto));
+    });
+
+    renderProductos();
+  });
+}
+
+/* ================= INIT ================= */
+actualizarCartCount();
+renderProductos();
+
+/* --- Busqueda desde URL --- */
 const params = new URLSearchParams(window.location.search);
 const searchParam = params.get("search");
-
-if (searchParam) {
-  const buscador = document.getElementById("buscador");
-  if (buscador) {
-    buscador.value = decodeURIComponent(searchParam);
-    buscador.dispatchEvent(new Event("input"));
-  }
+if (searchParam && inputBuscador) {
+  inputBuscador.value = decodeURIComponent(searchParam);
+  inputBuscador.dispatchEvent(new Event("input"));
 }
-
 
 /* ================= BUSCADOR OVERLAY INDEX ================= */
 document.addEventListener("DOMContentLoaded", () => {
-
   const btnLupa = document.getElementById("btn-lupa");
   const overlay = document.getElementById("search-overlay");
   const inputMobile = document.getElementById("search-mobile");
@@ -1180,25 +856,15 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => inputMobile.focus(), 200);
   });
 
-  closeSearch.addEventListener("click", () => {
-    overlay.classList.remove("active");
-    inputMobile.value = "";
-  });
-
-  overlay.addEventListener("click", e => {
-    if (e.target === overlay) {
-      overlay.classList.remove("active");
-      inputMobile.value = "";
-    }
-  });
+  closeSearch.addEventListener("click", () => { overlay.classList.remove("active"); inputMobile.value = ""; });
+  overlay.addEventListener("click", e => { if (e.target === overlay) { overlay.classList.remove("active"); inputMobile.value = ""; } });
 
   inputMobile.addEventListener("keydown", e => {
-    if (e.key === "Enter" && inputMobile.value.trim() !== "") {
-      window.location.href =
-        `productos.html?search=${encodeURIComponent(inputMobile.value.trim())}`;
+    if (e.key === "Enter" && inputMobile.value.trim()) {
+      window.location.href = `productos.html?search=${encodeURIComponent(inputMobile.value.trim())}`;
     }
   });
-
 });
+
 
 
