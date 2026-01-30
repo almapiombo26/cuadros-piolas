@@ -99,7 +99,8 @@ btnFinalizar.addEventListener("click", () => {
     return;
   }
 
-  let mensaje = "🖼️ *Pedido Cuadros Piolas*\n\n";
+  let mensaje = "Hola!  Vengo desde la página web de Cuadros Piolas.\nQuisiera realizar el pago de este pedido y consultar por el envío.\n\n *Pedido Cuadros Piolas*\n\n";
+
 
   carrito.forEach(item => {
     const subtotal = item.precioUnitario * item.cantidad;
