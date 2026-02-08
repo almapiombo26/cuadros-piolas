@@ -200,17 +200,17 @@ const preciosEspeciales = {
   },
   /* ================= RICKY RICON ================= */
 
-  "Ricky Ricon 5": {
+  "Ricky ricon 5": {
     "40x70": { normal: 60000, led: 80000 },
     "60x90": { normal: 85000, led: 105000 },
     "70x110": { normal: 100000, led: 130000 }
   },
-  "Ricky Ricon 9": {
+  "Ricky ricon 9": {
     "80x40": { normal: 80000, led: 100000 },
     "120x60": { normal: 100000, led: 130000 },
     "150x60": { normal: 130000, led: 150000 }
   },
-  "Ricky Ricon 7, Ricky Ricon 8": {
+  "Ricky ricon 7, Ricky ricon 8": {
     "60x60": { normal: 70000, led: 90000 },
     "80x80": { normal: 100000, led: 120000 },
     "100x100": { normal: 130000, led: 150000 }
@@ -389,7 +389,7 @@ const productos = [
   { nombre: "One Piece 6", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece6.jpeg" },
   { nombre: "One Piece 7", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece7.jpeg" },
   { nombre: "One Piece 8", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece8.jpeg" },
-  { nombre: "One Piece 8", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece9.jpeg" },
+  { nombre: "One Piece 9", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece9.jpeg" },
   { nombre: "One Piece 10", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece10.jpeg" },
   { nombre: "One Piece 11", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece11.jpeg" },
   { nombre: "One Piece 12", categoria: "onepiece", orientacion: "vertical", imagen: "img/onepiece/onepiece12.jpeg" },
