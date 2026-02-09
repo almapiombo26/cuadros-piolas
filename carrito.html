@@ -63,11 +63,54 @@
     <button id="btn-vaciar" class="btn btn-outline-secondary">
       Vaciar carrito
     </button>
-
+    
     <button id="btn-finalizar" class="btn btn-success flex-grow-1">
-      Finalizar compra por WhatsApp
+      Finalizar compra
     </button>
   </div>
+  
+  <div id="medios-pago" class="mt-4" style="display:none;">
+  <h5 class="fw-bold mb-3">Medios de pago</h5>
+  
+  <button id="btn-transferencia" class="btn btn-dark w-100 mb-2 btn-pago">
+    💸 Transferencia
+  </button>
+  <button id="btn-efectivo" class="btn btn-outline-dark w-100 mb-3 btn-pago">
+    💵 Pago en efectivo
+  </button>
+
+
+  <div id="datos-transferencia" style="display:none;" class="alert alert-info"></div>
+
+  <h5 class="fw-bold mt-4 mb-3 entrega-titulo">Forma de entrega</h5>
+
+
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="envio" id="retiro">
+    <label class="form-check-label entrega-opcion" for="retiro">
+      🎨 Retiro en taller (Gratis)
+    </label>
+    <p class="small text-muted mb-2">
+      Dirección: 30 de septiembre 4708, San José, Temperley. Buenos Aires Argentina
+    </p>
+  </div>
+
+  <div class="form-check mt-2">
+    <input class="form-check-input" type="radio" name="envio" id="domicilio">
+    <label class="form-check-label entrega-opcion" for="domicilio">
+      🚚 Envío a domicilio
+      <span class="envio-cotizar">(Costo a cotizar por WhatsApp)</span>
+    </label>
+  </div>
+
+  <input type="text" id="direccion" class="form-control mt-2"
+         placeholder="Ingresá tu dirección completa"
+         style="display:none;">
+
+  <button id="btn-whatsapp-final" class="btn btn-success w-100 mt-4">
+    💬 Enviar pedido por WhatsApp
+  </button>
+</div>
 
 </main>
 
@@ -88,5 +131,3 @@
 
 </body>
 </html>
-
-

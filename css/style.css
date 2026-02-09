@@ -370,6 +370,51 @@ main {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
+/* === Forma de entrega más visible === */
+.entrega-titulo {
+  font-size: 1.4rem;
+}
+
+.entrega-opcion {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+/* ===== FORMA DE ENTREGA ===== */
+.form-check-label {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.form-check-input:checked + .form-check-label {
+  color: #198754;
+}
+
+.envio-cotizar {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #dc3545;
+}
+
+
+/* ===== BOTONES DE PAGO SELECCIONADOS ===== */
+.btn-pago {
+  transition: none; /* sin animaciones raras */
+}
+
+.btn-pago.activo {
+  background-color: #198754 !important; /* verde */
+  color: #fff !important;
+  border-color: #198754 !important;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.3);
+}
+
+/* IMPORTANTE: que hover NO cambie el color */
+.btn-pago.activo:hover {
+  background-color: #198754 !important;
+}
+
+
 
 /* ================= SOBRE NOSOTROS ================= */
 .sobre-nosotros-page {
