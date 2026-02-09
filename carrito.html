@@ -83,29 +83,35 @@
   <div id="datos-transferencia" style="display:none;" class="alert alert-info"></div>
 
   <h5 class="fw-bold mt-4 mb-3 entrega-titulo">Forma de entrega</h5>
-
-
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="envio" id="retiro">
-    <label class="form-check-label entrega-opcion" for="retiro">
-      🎨 Retiro en taller (Gratis)
-    </label>
-    <p class="small text-muted mb-2">
-      Dirección: 30 de septiembre 4708, San José, Temperley. Buenos Aires Argentina
-    </p>
+  
+  <div class="entrega-box">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="envio" id="retiro">
+      <label class="form-check-label entrega-opcion" for="retiro">
+        🎨 Retiro en taller (Gratis)
+      </label>
+      <p class="small text-muted mb-2">
+        Dirección: 30 de septiembre 4708, San José, Temperley. Buenos Aires Argentina
+      </p>
+    </div>
+    <div class="form-check mt-2">
+      <input class="form-check-input" type="radio" name="envio" id="domicilio">
+      <label class="form-check-label entrega-opcion" for="domicilio">
+        🚚 Envío a domicilio
+        <span class="envio-cotizar">(Costo a cotizar por WhatsApp)</span>
+      </label>
+    </div>
   </div>
 
-  <div class="form-check mt-2">
-    <input class="form-check-input" type="radio" name="envio" id="domicilio">
-    <label class="form-check-label entrega-opcion" for="domicilio">
-      🚚 Envío a domicilio
-      <span class="envio-cotizar">(Costo a cotizar por WhatsApp)</span>
-    </label>
+  
+  <div id="datos-envio" style="display:none;" class="mt-2">
+    <input type="text" id="direccion" class="form-control mb-2" placeholder="Dirección (calle y número) *">
+    <input type="text" id="entrecalles" class="form-control mb-2"placeholder="Entre calles *">
+    <input type="text" id="barrio" class="form-control mb-2" placeholder="Barrio *">
+    <input type="text" id="cp" class="form-control mb-2" placeholder="Código Postal *">
+    <input type="text" id="piso" class="form-control mb-2" placeholder="Piso / Depto (opcional)">
+    <input type="text" id="aclaraciones" class="form-control" placeholder="Aclaraciones para el envío (opcional)">
   </div>
-
-  <input type="text" id="direccion" class="form-control mt-2"
-         placeholder="Ingresá tu dirección completa"
-         style="display:none;">
 
   <button id="btn-whatsapp-final" class="btn btn-success w-100 mt-4">
     💬 Enviar pedido por WhatsApp

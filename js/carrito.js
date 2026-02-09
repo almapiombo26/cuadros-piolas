@@ -25,12 +25,17 @@ const mediosPago = document.getElementById("medios-pago");
 const btnTransferencia = document.getElementById("btn-transferencia");
 const btnEfectivo = document.getElementById("btn-efectivo");
 const datosTransferencia = document.getElementById("datos-transferencia");
-
 const retiroRadio = document.getElementById("retiro");
 const domicilioRadio = document.getElementById("domicilio");
-const inputDireccion = document.getElementById("direccion");
-
 const btnWhatsappFinal = document.getElementById("btn-whatsapp-final");
+const datosEnvio = document.getElementById("datos-envio");
+const inputDireccion = document.getElementById("direccion");
+const inputEntrecalles = document.getElementById("entrecalles");
+const inputBarrio = document.getElementById("barrio");
+const inputCP = document.getElementById("cp");
+const inputPiso = document.getElementById("piso");
+const inputAclaraciones = document.getElementById("aclaraciones");
+
 
 
 // ================= FUNCIONES =================
@@ -122,7 +127,7 @@ btnFinalizar.addEventListener("click", () => {
 
 
 btnTransferencia.addEventListener("click", () => {
-  metodoPago = "Transferencia bancaria";
+  metodoPago = "Transferencia";
 
   // Estado seleccionado (persistente)
   btnTransferencia.classList.add("activo");
@@ -143,10 +148,6 @@ btnTransferencia.addEventListener("click", () => {
   `;
 });
 
-
-
-
-
 btnEfectivo.addEventListener("click", () => {
   metodoPago = "Pago en efectivo";
 
@@ -158,17 +159,14 @@ btnEfectivo.addEventListener("click", () => {
 });
 
 
-
-
-
-
 domicilioRadio.addEventListener("change", () => {
-  inputDireccion.style.display = "block";
+  datosEnvio.style.display = "block";
 });
 
 retiroRadio.addEventListener("change", () => {
-  inputDireccion.style.display = "none";
+  datosEnvio.style.display = "none";
 });
+
 
 
 btnWhatsappFinal.addEventListener("click", () => {
@@ -185,10 +183,18 @@ btnWhatsappFinal.addEventListener("click", () => {
     return;
   }
 
-  if (domicilioRadio.checked && inputDireccion.value.trim() === "") {
-    alert("Ingresá tu dirección completa");
-    return;
+  if (domicilioRadio.checked) {
+    if (
+      inputDireccion.value.trim() === "" ||
+      inputEntrecalles.value.trim() === "" ||
+      inputBarrio.value.trim() === "" ||
+      inputCP.value.trim() === ""
+    ) {
+      alert("Por favor completá todos los datos obligatorios del envío");
+      return;
+    }
   }
+
 
   // Mensaje
   let mensaje = "Hola Damián! Vengo desde la web de Cuadros Piolas.\n\n";
@@ -210,16 +216,22 @@ btnWhatsappFinal.addEventListener("click", () => {
   mensaje += `*TOTAL DEL PEDIDO:* $${total.toLocaleString("es-AR")}\n`;
   mensaje += `*Forma de pago:* ${metodoPago}\n`;
 
-  if (domicilioRadio.checked) {
-    mensaje += "*Forma de entrega:* Envío a domicilio\n";
-    mensaje += "*Costo de envío:* A cotizar por WhatsApp\n";
-    mensaje += `*Dirección:* ${inputDireccion.value}\n`;
-  } else {
+  if (retiroRadio.checked) {
     mensaje += "*Forma de entrega:* Retiro en taller (Gratis)\n";
-    mensaje += "📍 Dirección: 30 de septiembre 4708, San José, Temperley. Buenos Aires\n";
+    mensaje += "📍 Dirección: 30 de septiembre 4708, San José, Temperley\n";
+  } else {
+    mensaje += "*Forma de entrega:* Envío a domicilio (Costo a cotizar por WhatsApp)\n";
+    mensaje += `📍 Dirección: ${inputDireccion.value}\n`;
+    mensaje += `🏘️ Barrio: ${inputBarrio.value}\n`;
+    mensaje += `🛣️ Entrecalles: ${inputEntrecalles.value}\n`;
+    mensaje += `📮 Código Postal: ${inputCP.value}\n`;
+    if (inputPiso.value.trim() !== "") {
+      mensaje += `🏢 Piso / Depto: ${inputPiso.value}\n`;
+    }
+    if (inputAclaraciones.value.trim() !== "") {
+      mensaje += `📝 Aclaraciones: ${inputAclaraciones.value}\n`;
+    }
   }
-
-
 
   if (metodoPago === "Transferencia") {
     mensaje += "\nAdjunto comprobante de transferencia.";

@@ -370,30 +370,56 @@ main {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
-/* === Forma de entrega más visible === */
+/* ================= FORMA DE ENTREGA ================= */
+
+/* Título "Forma de entrega" */
 .entrega-titulo {
-  font-size: 1.4rem;
+  font-size: 28px;       /* antes estaba chico → ahora se nota */
+  font-weight: 800;
+  margin-bottom: 14px;
 }
 
+/* Caja que envuelve las opciones */
+.entrega-box {
+  padding: 16px;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+}
+
+/* Cada opción (retiro / envío) */
+.entrega-box .form-check {
+  padding: 12px;
+  border-radius: 10px;
+}
+
+/* Texto principal de cada opción */
 .entrega-opcion {
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-size: 22px;       /* ⬅️ ACÁ el salto grande */
+  font-weight: 700;
+  cursor: pointer;
 }
 
-/* ===== FORMA DE ENTREGA ===== */
-.form-check-label {
-  font-size: 1.15rem;
-  font-weight: 600;
-}
-
-.form-check-input:checked + .form-check-label {
+/* Cuando está seleccionada */
+.entrega-box .form-check-input:checked + .entrega-opcion {
   color: #198754;
+  background-color: rgba(25, 135, 84, 0.10);
+  padding: 8px 10px;
+  border-radius: 8px;
 }
 
+/* Texto secundario "Costo a cotizar" */
 .envio-cotizar {
-  font-size: 1rem;
+  display: block;
+  font-size: 16px;
   font-weight: 700;
   color: #dc3545;
+  margin-top: 4px;
+}
+
+/* Dirección del taller */
+.entrega-box p.small {
+  font-size: 15px;
+  margin-left: 28px;
 }
 
 
