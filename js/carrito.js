@@ -234,8 +234,9 @@ btnWhatsappFinal.addEventListener("click", () => {
   }
 
   if (metodoPago === "Transferencia") {
-    mensaje += "\n<strong>Adjunto comprobante de transferencia.</strong>";
+    mensaje += "\n*Adjunto comprobante de transferencia.*";
   }
+
 
 
   window.open(
