@@ -234,8 +234,9 @@ btnWhatsappFinal.addEventListener("click", () => {
   }
 
   if (metodoPago === "Transferencia") {
-    mensaje += "\nAdjunto comprobante de transferencia.";
+    mensaje += "\n<strong>Adjunto comprobante de transferencia.</strong>";
   }
+
 
   window.open(
     `https://wa.me/${WHATSAPP_DAMIAN}?text=${encodeURIComponent(mensaje)}`,
