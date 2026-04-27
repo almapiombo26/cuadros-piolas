@@ -35,7 +35,7 @@ const preciosEspeciales = {
 
     /* ================= MONOPOLY ================= */
   "Monopoly 2": { /* ================= son 3 cuadros juntos ================= */
-    "40x60": { normal: 150000, led: 195000 }
+    "40x60": { normal: 200000, led: 295000 }
   },
 
   "Monopoly 17, Monopoly 18, Monopoly 19": {
@@ -67,9 +67,9 @@ const preciosEspeciales = {
 
  /* ================= CINE ================= */
    "Rapidos y furiosos 1": {
-    "40x60": { normal: 100000, led: 130000 },
-    "80x60": { normal: 140000, led: 180000 },
-    "100x70": { normal: 200000, led: 240000 }
+    "40x60": { normal: 140000, led: 200000 },
+    "80x50": { normal: 200000, led: 240000 },
+    "100x70": { normal: 250000, led: 290000 }
   },
 
  /* ================= PEAKY BLINDERS ================= */
